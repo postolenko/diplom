@@ -1273,10 +1273,6 @@ div.svg div.rateit-preset {
     margin: 30px auto;
 }
 
-.slider_wrapp .slider {
-
-}
-
 .thumb_1 {
     display: block;
     width: 100%;
@@ -1458,10 +1454,6 @@ div.svg div.rateit-preset {
     padding: 14px 30px;
 }
 
-.how_works_sect {
-
-}
-
 .how_works_templ {
     display: flex;
     display: -webkit-flex;
@@ -1552,10 +1544,6 @@ div.svg div.rateit-preset {
     left: 0;
     background: #367FD3;
     opacity: .8;
-}
-
-.h2_wrapp.white {
-
 }
 
 .h2_wrapp.white h2 {
@@ -1676,10 +1664,6 @@ div.svg div.rateit-preset {
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
-}
-
-.thunb_2_text {
-
 }
 
 .thunb_2_text h3 {
@@ -1881,10 +1865,6 @@ div.svg div.rateit-preset {
     font-size: 20px;
     line-height: 118%;
     color: #154672;
-}
-
-.sect_5_shape {
-
 }
 
 /*-- /Section 5 - Main Page --*/
