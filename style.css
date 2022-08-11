@@ -840,10 +840,6 @@ textarea:focus {
     color: #fff;
 }
 
-.items {
-
-}
-
 .item {
     display: flex;
     display: -webkit-flex;
@@ -1209,10 +1205,6 @@ textarea:focus {
     font-size: 32px;
     line-height: 130%;
     color: #154672;
-}
-
-.rate_item {
-
 }
 
 .rate_two_cols {
@@ -1909,10 +1901,6 @@ div.svg div.rateit-preset {
     padding: 18px 0 18px 0;
 }
 
-.h1_wrapp_2 {
-
-}
-
 .h1_wrapp_2 h1 {
     font-weight: 500;
     font-size: 64px;
@@ -1959,10 +1947,6 @@ div.svg div.rateit-preset {
     width: calc(100% - 70px);
 }
 
-.btn_wrapp_2 {
-
-}
-
 .btn_wrapp_2 .orange_pill {
     width: 100%;
     max-width: 310px;
@@ -1994,10 +1978,6 @@ div.svg div.rateit-preset {
 .sect_2_ap > .row {
     position: relative;
     z-index: 2;
-}
-
-.steps_box {
-
 }
 
 .steps_wrapp {
