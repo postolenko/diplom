@@ -134,6 +134,33 @@ $(document).ready(function() {
       $(this).addClass("active");
     });
 
+    // ------------
 
+    if( $(".inner_slider").length > 0 ) {
+      $(".inner_slider").not(".slick-initialized").slick({
+          dots: true,
+          arrows: false,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 1,
+          slidesToScroll: 1
+          // fade: true
+      });
+    }
+
+    if( $(".contacts_slider").length > 0 ) {
+      $(".contacts_slider").not(".slick-initialized").slick({
+          dots: false,
+          arrows: true,
+          // autoplay: true,
+          // autoplaySpeed: 4000,
+          speed: 1200,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          fade: true,
+          appendArrows: $(".contacts_slider_arrow")
+      });
+    }
 
 });
