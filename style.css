@@ -3295,10 +3295,6 @@ div.svg div.rateit-preset {
     z-index: 2;
 }
 
-.h2_wrapp {
-
-}
-
 .thumbnails_6 {
     display: flex;
     display: -webkit-flex;
@@ -3384,10 +3380,6 @@ div.svg div.rateit-preset {
     -webkit-justify-content: flex-end;
 }
 
-.thumb_6_table {
-
-}
-
 .thumb_6_table_row {
     display: flex;
     display: -webkit-flex;
@@ -3424,14 +3416,6 @@ div.svg div.rateit-preset {
     background-position: center;
     background-repeat: no-repeat;
     background-image: url(img/cap.svg);
-}
-
-.thumb_6_two_cols > div:nth-child(2) .cap {
-
-}
-
-.thumb_6_footer {
-
 }
 
 .thumb_6_footer p {
