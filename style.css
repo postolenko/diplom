@@ -3272,10 +3272,6 @@ div.svg div.rateit-preset {
 
 /*-- Section 6 - Service --*/
 
-.sect_6_service {
-
-}
-
 .sect_6_service:before {
     display: block;
     content: "";
