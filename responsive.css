@@ -1,9 +1,16 @@
+@media only screen and (max-width: 1900px) {
+
+/*.footer_shape {
+	display: none;
+}*/
+
+}
+
 @media only screen and (max-width: 1240px) {
 
 
 
 }
-
 
 @media only screen and (max-width: 900px) {
 
@@ -22,7 +29,6 @@
 
 
 }
-
 
 @media only screen and (max-width: 480px) {
 

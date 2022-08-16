@@ -1,0 +1,21 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M23 2C21.8955 2 21 2.8955 21 4V5C21 6.1045 21.8955 7 23 7C24.1045 7 25 6.1045 25 5V4C25 2.8955 24.1045 2 23 2Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M23 19.5V28" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M25.5 22.5V11.5" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M25.5 19.5C26.6045 19.5 27.5 18.6045 27.5 17.5V11C27.5 9.8955 26.6045 9 25.5 9C25.3355 9 14.857 9 15 9C14.335 9 14.0005 9.5 14 10C13.9995 10.5 14.334 11 15 11H20.5V25.103C20.5 25.3425 20.354 25.558 20.1315 25.647L18.511 26.295C18.204 26.4185 18 26.69 18 27.1175C18 27.682 18.386 28 18.8125 28H27.1875C27.615 28 28 27.6835 28 27.1105C28 26.6865 27.791 26.4165 27.4895 26.2955L25.8685 25.647C25.646 25.5585 25.5 25.343 25.5 25.103V22" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M16.9445 9.0005L16.5 5.8895C16.444 5.383 16.0095 5 15.5 5H5.00002C4.44152 5 3.99702 5.455 4.00002 6C4.00002 6.0365 4.00251 6.0735 4.00651 6.1105L6.01851 22.1105C6.07451 22.617 6.49051 23 7.00001 23H17.5C18.096 23 18.5595 22.482 18.494 21.8895L17.167 11.0025" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M4.87444 13.0137L1.96094 28.4212" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M8.89551 23L9.49501 28.449" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M15.3965 23L15.996 28.449" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M8 7H13.5" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M6.5 11.5H10.5" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M6.5 13.5H10.5" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M7 9H6V10H7V9Z" fill="black"/>
+<path d="M9 9H8V10H9V9Z" fill="black"/>
+<path d="M11 9H10V10H11V9Z" fill="black"/>
+<path d="M9 20C9.82843 20 10.5 19.3284 10.5 18.5C10.5 17.6716 9.82843 17 9 17C8.17157 17 7.5 17.6716 7.5 18.5C7.5 19.3284 8.17157 20 9 20Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M13.5 16C14.3284 16 15 15.3284 15 14.5C15 13.6716 14.3284 13 13.5 13C12.6716 13 12 13.6716 12 14.5C12 15.3284 12.6716 16 13.5 16Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M14.5 21C15.3284 21 16 20.3284 16 19.5C16 18.6716 15.3284 18 14.5 18C13.6716 18 13 18.6716 13 19.5C13 20.3284 13.6716 21 14.5 21Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M13.7949 15.9717L14.2064 18.0297" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M10.1562 17.5463L12.4973 15.6143" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+</svg>

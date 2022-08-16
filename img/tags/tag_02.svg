@@ -1,0 +1,15 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16 14V27.5L16.5515 27.684C17.118 27.8725 17.5 28.403 17.5 29C17.5 29.276 17.276 29.5 17 29.5H14.5C13.9475 29.5 13.5 29.0525 13.5 28.5V20" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M12.071 24.122L10.916 28.743C10.8045 29.1875 10.4045 29.5 9.9455 29.5H7.5C7.224 29.5 7 29.276 7 29C7 28.4125 7.4 27.9 7.97 27.7575L8.625 27.5935L11 18.095V14" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M13.5 4C14.6045 4 15.5 4.8955 15.5 6V7C15.5 8.1045 14.6045 9 13.5 9C12.3955 9 11.5 8.1045 11.5 7V6C11.5 4.8955 12.3955 4 13.5 4Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M16 19.1485L18.5985 16.8015C18.842 16.619 19 16.328 19 16C19 15.8055 18.9445 15.6245 18.8485 15.471L17.2025 12.3375C16.7705 11.515 15.9185 11 14.9895 11H12.011C11.082 11 10.23 11.515 9.798 12.3375L8.152 15.471C8.0555 15.6245 8 15.8055 8 16C8 16.328 8.158 16.619 8.4015 16.8015L10.7885 18.9395" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M15.5 2.5C15.5 1.9475 15.9475 1.5 16.5 1.5H27.5C28.0525 1.5 28.5 1.9475 28.5 2.5V14C28.5 14.5525 28.0525 15 27.5 15H20.5" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M28.5 3.5H17" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M24 17H25" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M26 17H27" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M6.881 8.755C6.4505 8.9135 5.9855 9 5.5 9C3.291 9 1.5 7.209 1.5 5C1.5 2.791 3.291 1 5.5 1C7.709 1 9.5 2.791 9.5 5C9.5 5.5985 9.3685 6.1665 9.133 6.6765L9.973 8.921C9.9895 8.967 10 9.0195 10 9.0715C10 9.308 9.808 9.5 9.5715 9.5C9.519 9.5 9.4685 9.4905 9.421 9.473L6.881 8.755Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M4 3.5H6" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M3 5.5H8" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M23.5 9.5C22.729 9.5 22 8.8285 22 8V7C22 6.1715 22.646 5.5 23.5 5.5C24.3285 5.5 25 6.1715 25 7V8C25 8.8285 24.3285 9.5 23.5 9.5Z" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+<path d="M20.5 13.5C20.5 12.3955 21.3955 11.5 22.5 11.5H24.5C25.6045 11.5 26.5 12.3955 26.5 13.5" stroke="black" stroke-width="0.586815" stroke-miterlimit="10"/>
+</svg>
