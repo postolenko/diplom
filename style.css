@@ -3603,10 +3603,6 @@ div.svg div.rateit-preset {
     padding: 12px 30px 29px 30px;
 }
 
-.price_table {
-
-}
-
 .price_table_row {
     display: flex;
     display: -webkit-flex;
@@ -3615,10 +3611,6 @@ div.svg div.rateit-preset {
     -webkit-border-radius: 5px;
     overflow: hidden;
 }
-
-/*.price_table_row:hover {
-    background: #BDC4C6;
-}*/
 
 .price_table_row > div {
     display: flex;
@@ -3685,10 +3677,6 @@ div.svg div.rateit-preset {
     background: rgba(189, 196, 198, .25);
     border-radius: 0;
     -webkit-border-radius: 0;
-}
-
-.price_table .table_header {
-
 }
 
 .price_table h3 {
