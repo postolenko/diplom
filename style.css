@@ -4203,18 +4203,6 @@ div.svg div.rateit-preset {
 
 /*-- Section 1 - Order --*/
 
-.sect_1_order {
-
-}
-
-.sect_1_order .breadcrumbs {
-
-}
-
-.order_sect {
-
-}
-
 .order_steps_wrapp {
     max-width: 1135px;
     margin: 25px auto;
@@ -4581,7 +4569,6 @@ div.svg div.rateit-preset {
     line-height: 109%;
     color: #1A2E44;
 }
-
 
 /*-- /Section 1 - Order --*/
 
