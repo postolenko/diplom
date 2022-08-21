@@ -6,3 +6,4 @@
 # http://postolenko.github.io/diplom/service.html
 # http://postolenko.github.io/diplom/prices.html
 # http://postolenko.github.io/diplom/about.html
+# http://postolenko.github.io/diplom/order.html
