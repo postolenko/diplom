@@ -565,10 +565,6 @@ textarea:focus {
     color: #1565C0;
 }
 
-.callback_wrapp {
-
-}
-
 .callback_wrapp > div {
     padding: 4px 0;
 }
@@ -771,7 +767,7 @@ textarea:focus {
 }
 
 .respmenubtn:hover span {
-    background: #e9ba5f;
+    background: #FD8C04;
 }
 
 .respmenubtn.active span {
@@ -779,7 +775,7 @@ textarea:focus {
     width: 35px;
     top: 2px;
     left: 0;
-    background: #e9ba5f;
+    background: #FD8C04;
 }
 
 .respmenubtn.active span:last-child {
@@ -1833,6 +1829,8 @@ div.svg div.rateit-preset {
     display: -webkit-flex;
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
+    justify-content: center;
+    -webkit-justify-content: center;
     max-width: 1300px;
     margin: 21px auto;
 }
@@ -1841,6 +1839,7 @@ div.svg div.rateit-preset {
     width: calc(20% - 14px);
     min-height: 235px;
     margin: 7px;
+    padding: 0 5px;
     background: #FFF;
     border: 1px solid #367FD3;
     border-radius: 5px;
@@ -4865,6 +4864,8 @@ footer {
     display: -webkit-flex;
     align-items: center;
     -webkit-align-items: center;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
 }
 
 .payments_list li {
