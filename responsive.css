@@ -89,6 +89,27 @@ h1 {
 
 /*-- /Section 2 - Main Page --*/
 
+/*-- Section 1 - FAQ --*/
+
+.h1_wrapp_2_2 {
+    max-width: calc(100% - 450px);
+}
+
+.h1_wrapp_2 h1 {
+    font-size: 49px;
+    line-height: 57px;
+}
+
+.h1_wrapp_2_2 p {
+    font-size: 19px;
+}
+
+.h1_wrapp_2_2 p a {
+    font-size: 26px;
+}
+
+/*-- /Section 1 - FAQ --*/
+
 /*-- Footer --*/
 
 .links_inlines {
@@ -309,9 +330,33 @@ h2 {
 
 /*-- /Section 3 - Main Page --*/
 
+/*-- Section 1 - FAQ --*/
+
+.promo_faq {
+    display: none;
+}
+
+.h1_wrapp_2_2 {
+    max-width: 100%;
+}
+
+/*-- /Section 1 - FAQ --*/
+
+/*-- Section 2 - FAQ --*/
+
+.tab_link {
+    font-size: 18px;
+}
+
+/*-- /Section 2 - FAQ --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
+
+.wrapper {
+    padding-top: 61px;
+}
 
 /*-- Header --*/
 
@@ -494,9 +539,21 @@ h2 {
 
 /*-- /Section 2 - Main Page --*/
 
+/*-- Section 1 - FAQ --*/
+
+.sect_1_faq {
+    background-image: none;
+}
+
+/*-- /Section 1 - FAQ --*/
+
 }
 
 @media only screen and (max-width: 767px) {
+
+.wrapper {
+    padding-top: 53px;
+}
 
 h1 {
     font-size: 29px;
@@ -645,6 +702,52 @@ h1 {
 }
 
 /*-- /Section 4 - Main Page --*/
+
+/*-- Section 1 - FAQ --*/
+
+.h1_wrapp_2 h1 {
+    font-size: 29px;
+    line-height: 38px;
+}
+
+.h1_wrapp_2_2 {
+    padding: 5px 0 5px 0;
+}
+
+.h1_wrapp_2_2 p {
+    font-size: 16px;
+}
+
+.h1_wrapp_2_2 p a {
+    font-size: 22px;
+}
+
+/*-- /Section 1 - FAQ --*/
+
+/*-- Section 2 - FAQ --*/
+
+.sect_2_faq .h2_wrapp {
+    padding-top: 45px;
+}
+
+.faq_item_title {
+    padding: 15px 0 15px 0;
+}
+
+.faq_item_title h3 {
+    font-size: 23px;
+    line-height: 31px;
+}
+
+.faq_dr .dropdown_item_title:after {
+    right: 12px;
+}
+
+.faq_dr .dropdown_item_title {
+    padding: 16px 40px 7px 0;
+}
+
+/*-- /Section 2 - FAQ --*/
 
 }
 

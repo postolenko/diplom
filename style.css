@@ -2406,6 +2406,8 @@ div.svg div.rateit-preset {
 .h1_wrapp_2_2 {
     max-width: 1000px;
     padding: 15px 0 15px 0;
+    position: relative;
+    z-index: 2;
 }
 
 .h1_wrapp_2_2 h1 {
@@ -2436,7 +2438,7 @@ div.svg div.rateit-preset {
 
 .tab_list_wrapp {
     background: #EFF4FB;
-    padding: 22px 0 22px 0;
+    padding: 17px 0 17px 0;
 }
 
 .tab_list {
@@ -2449,7 +2451,7 @@ div.svg div.rateit-preset {
 }
 
 .tab_list li {
-    padding: 0 23px;
+    padding: 5px 23px;
 }
 
 .tab_link {
