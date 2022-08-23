@@ -2666,6 +2666,7 @@ div.svg div.rateit-preset {
     background-image: url(img/contacts_promo_bg.jpg);
     background-size: cover;
     background-position: center;
+    background-color: #4a8cd8;
 }
 
 .contacts_promo > .row {
@@ -2815,12 +2816,19 @@ div.svg div.rateit-preset {
 .tree_cols {
     display: flex;
     display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     margin: 0 -6px;
 }
 
 .tree_cols > div {
     width: 33.33%;
     padding: 6px;
+}
+
+.tree_cols > div:nth-child(1) {
+    display: flex;
+    display: -webkit-flex;
 }
 
 .blue_box {
