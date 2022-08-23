@@ -3891,6 +3891,7 @@ div.svg div.rateit-preset {
     width: calc(100% - 200px);
     position: relative;
     z-index: 2;
+    overflow: hidden;
 }
 
 .step_item_2 > div:nth-child(2) {

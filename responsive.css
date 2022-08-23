@@ -123,9 +123,21 @@ h1 {
 
 /*-- /Section 1 - Contacts --*/
 
+/*-- Section 1 - 404 --*/
+
 .templ_404 h1 {
     font-size: 43px;
 }
+
+/*-- /Section 1 - 404 --*/
+
+/*-- Section 1 - About --*/
+
+.h1_wrapp_about p {
+    font-size: 19px;
+}
+
+/*-- /Section 1 - About --*/
 
 /*-- Footer --*/
 
@@ -284,6 +296,36 @@ h1 {
 
 /*-- /Section 3 - Contacts --*/
 
+/*-- Section 1 - About --*/
+
+.h1_wrapp_about {
+    max-width: 100%;
+    padding: 36px 510px 37px 0;
+}
+
+.about_promo_shape {
+    right: 0;
+    max-width: 500px;
+}
+
+/*-- /Section 1 - About --*/
+
+/*-- Section 2 - About --*/
+
+.about_thumbs_sect {
+    margin: 45px 0 50px 0;
+}
+
+.about_thumb p {
+    font-size: 16px;
+}
+
+.about_thumb p .blue {
+    font-size: 22px;
+}
+
+/*-- /Section 2 - About --*/
+
 /*-- Footer --*/
 
 .footer_two_cols_2 {
@@ -428,12 +470,140 @@ h2 {
 
 /*-- /Section 1 - 404 --*/
 
+/*-- Section 1 - About --*/
+
+.h1_wrapp_about {
+    max-width: 100%;
+    padding: 36px 510px 37px 0;
+}
+
+.h1_wrapp_about h1 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+/*-- /Section 1 - About --*/
+
+/*-- Section 3 - About --*/
+
+.sect_3_about {
+    padding: 20px 0 30px 0;
+}
+
+.h2_wrapp_2 p {
+    font-size: 16px;
+}
+
+.steps_templ {
+    max-width: 930px;
+    margin: 52px auto;
+}
+
+.step_item_2_shape {
+    left: -105px;
+}
+
+.step_figure h3 {
+    font-size: 22px;
+}
+
+.step_figure p {
+    font-size: 15px;
+}
+
+.step_figure_1 {
+    max-width: 407px;
+}
+
+.step_figure_2 {
+    max-width: 424px;
+}
+
+.step_figure_3 {
+    max-width: 464px;
+}
+
+.step_figure_4 {
+    max-width: 514px;
+}
+
+.step_figure_5 {
+    max-width: 568px;
+}
+
+.step_percent > svg {
+    height: 78px;
+}
+
+.step_percent p {
+    padding-top: 40px;
+    font-size: 36px;
+    line-height: 100%;
+}
+
+.step_item_2 > div:nth-child(2) {
+    width: 170px;
+    left: -106px;
+}
+
+/*-- /Section 3 - About --*/
+
+/*-- Section 5 - About --*/
+
+.two_cols_3 > .left_col {
+    width: 50%;
+    padding: 10px 15px 10px 0;
+}
+
+.two_cols_3 > .right_col {
+    width: 50%;
+    padding: 10px 0 10px 15px;
+}
+
+.item_8 > div:nth-child(2):before {
+    left: 25px;
+}
+
+.item_8 h3 {
+    font-size: 20px;
+}
+
+.item_8 p {
+    font-size: 16px;
+}
+
+.item_8 > div:nth-child(2):before {
+    height: 57px;
+}
+
+.blue_box_2 > .inner {
+    padding: 18px 10px 17px 10px;
+}
+
+.item_7 h3 {
+    font-size: 16px;
+}
+
+.item_7 p {
+    font-size: 19px;
+}
+
+.thumb_7 h3 {
+    font-size: 24px;
+}
+
+.thumb_7 p {
+    font-size: 14px;
+}
+
+/*-- /Section 5 - About --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
 
 .wrapper {
-    padding-top: 61px;
+    padding-top: 70px;
 }
 
 /*-- Header --*/
@@ -532,6 +702,42 @@ h2 {
 }
 
 /*-- /Section 1 - 404 --*/
+
+/*-- Section 1 - About --*/
+
+.h1_wrapp_about {
+    padding: 36px 0;
+}
+
+.about_promo_shape {
+    display: none;
+}
+
+/*-- /Section 1 - About --*/
+
+/*-- Section 3 - About --*/
+
+.step_item_2 > div:nth-child(2) {
+    left: -61px;
+}
+
+/*-- /Section 3 - About --*/
+
+/*-- Section 4 - About --*/
+
+.line_article .inner {
+    width: calc(100% - 300px);
+}
+
+.line_article_shape {
+    max-width: 300px;
+}
+
+.line_article p {
+    font-size: 16px;
+}
+
+/*-- /Section 4 - About --*/
 
 /*-- Footer --*/
 
@@ -681,6 +887,120 @@ h2 {
 
 /*-- /Section 3 - Contacts --*/
 
+/*-- Section 2 - About --*/
+
+.about_thumb {
+    width: calc(33.33% - 20px);
+    margin: 10px;
+}
+
+.about_thumb p {
+    font-size: 14px;
+}
+
+.about_thumb p .blue {
+    font-size: 20px;
+}
+
+/*-- /Section 2 - About --*/
+
+/*-- Section 3 - About --*/
+
+.steps_templ {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
+    margin: 10px auto;
+}
+
+.step_item_2 {
+    margin: 0;
+}
+
+.step_item_2 > div:nth-child(1) {
+    width: calc(100% - 111px);
+    order: 2;
+}
+
+.step_item_2 > div:nth-child(2) {
+    width: 111px;
+    left: 0;
+    order: 1;
+    text-align: left;
+}
+
+.step_percent {
+    min-height: 0;
+}
+
+.step_percent > svg {
+    display: none;
+}
+
+.step_item_2_shape {
+    display: none;
+}
+
+.step_figure {
+    max-width: 100% !important;
+    min-height: 0 !important;
+    padding: 9px 0;
+}
+
+.step_percent p {
+    padding-top: 9px;
+    color: #367FD3;
+    text-align: left;
+}
+
+.step_item_2.orange .step_percent p {
+    background: linear-gradient(180deg, #FD8C04 0%, #FD8C04 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.sect_3_about .h2_wrapp h2 {
+    padding: 20px 0;
+}
+
+/*-- /Section 3 - About --*/
+
+/*-- Section 5 - About --*/
+
+.sect_5_about {
+    padding: 35px 0;
+}
+
+.two_cols_3 {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 6px 0;
+}
+
+.two_cols_3 > .left_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.two_cols_3 > .right_col {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.blue_box_2_wrapp {
+    max-width: 100%;
+    padding: 10px 0;
+}
+
+.thumbnails_7 {
+    margin: 10px -2px;
+}
+
+/*-- /Section 5 - About --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -695,8 +1015,8 @@ h1 {
 }
 
 .h2_wrapp p {
-    font-size: 19px;
-    line-height: 24px;
+    font-size: 15px;
+    line-height: 22px;
 }
 
 /*-- Header --*/
@@ -939,6 +1259,23 @@ h1 {
 
 /*-- /Section 1 - 404 --*/
 
+/*-- Section 1 - About --*/
+
+.h1_wrapp_about {
+    padding: 20px 0;
+}
+
+.h1_wrapp_about h1 {
+    font-size: 29px;
+    line-height: 37px;
+}
+
+.h1_wrapp_about p {
+    font-size: 16px;
+}
+
+/*-- /Section 1 - About --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -983,6 +1320,27 @@ h1 {
 }
 
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 2 - About --*/
+
+.about_thumbs_sect {
+    margin: 15px 0 20px 0;
+}
+
+.about_thumbs_img {
+    display: none;
+}
+
+.about_thumbs {
+    margin: 10px 0;
+}
+
+.about_thumb {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/*-- /Section 2 - About --*/
 
 /*-- Footer --*/
 
@@ -1059,6 +1417,20 @@ h1 {
 }
 
 /*-- /Section 1 - Main Page --*/
+
+/*-- Section 4 - About --*/
+
+.line_article .inner {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.line_article_shape {
+    opacity: .5;
+}
+
+/*-- /Section 4 - About --*/
 
 }
 
@@ -1201,6 +1573,35 @@ h2 {
 }
 
 /*-- /Section 3 - Contacts --*/
+
+/*-- Section 3 - About --*/
+
+.step_item_2 > div:nth-child(1) {
+    width: calc(100% - 80px);
+}
+
+.step_item_2 > div:nth-child(2) {
+    width: 80px;
+}
+
+.step_percent p {
+    font-size: 25px;
+}
+
+.step_figure h3 {
+    font-size: 19px;
+}
+
+/*-- /Section 3 - About --*/
+
+/*-- Section 5 - About --*/
+
+.thumb_7 {
+    width: 100%;
+    margin: 2px 0;
+}
+
+/*-- /Section 5 - About --*/
 
 }
 
