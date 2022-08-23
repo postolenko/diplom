@@ -123,6 +123,10 @@ h1 {
 
 /*-- /Section 1 - Contacts --*/
 
+.templ_404 h1 {
+    font-size: 43px;
+}
+
 /*-- Footer --*/
 
 .links_inlines {
@@ -412,6 +416,18 @@ h2 {
 
 /*-- /Section 1 - Contacts --*/
 
+/*-- Section 1 - 404 --*/
+
+.templ_404 > .left_col {
+    width: calc(100% - 450px);
+}
+
+.templ_404 > .right_col {
+    width: 450px;
+}
+
+/*-- /Section 1 - 404 --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -499,6 +515,23 @@ h2 {
 }
 
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 1 - 404 --*/
+
+.templ_404 h1 {
+    font-size: 31px;
+}
+
+.templ_404 p {
+    font-size: 16px;
+}
+
+.templ_404 p {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+/*-- /Section 1 - 404 --*/
 
 /*-- Footer --*/
 
@@ -893,6 +926,18 @@ h1 {
 }
 
 /*-- /Section 3 - Contacts --*/
+
+/*-- Section 1 - 404 --*/
+
+.templ_404 > .left_col {
+    display: none;
+}
+
+.templ_404 > .right_col {
+    width: 100%;
+}
+
+/*-- /Section 1 - 404 --*/
 
 }
 

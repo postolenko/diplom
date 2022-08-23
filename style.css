@@ -663,6 +663,7 @@ textarea:focus {
     -webkit-justify-content: center;
     align-items: center;
     -webkit-align-items: center;
+    text-align: center;
     cursor: pointer;
     min-width: 250px;
     min-height: 50px;
@@ -2656,6 +2657,13 @@ div.svg div.rateit-preset {
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.img_404 {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
 }
 
 /*-- /Section 1 - 404 --*/
