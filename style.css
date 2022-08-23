@@ -2105,9 +2105,18 @@ div.svg div.rateit-preset {
     line-height: 120%;
 }
 
+.steps_scale {
+
+}
+
 .steps_2_wrapp {
     height: 763px;
-    margin: 51px 0 6px 0;
+/*    max-width: 1364px;*/
+    width: 1364px;
+    margin: 51px auto 6px auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
 }
 
 .steps_inner {
@@ -2144,7 +2153,7 @@ div.svg div.rateit-preset {
 
 .steps_bg {
     position: absolute;
-    top: 187px;
+    top: -68px;
     left: 50%;
     transform: translate(-50%, 0);
     -webkit-transform: translate(-50%, 0);
@@ -2190,17 +2199,24 @@ div.svg div.rateit-preset {
     color: #1A2E44;
 }
 
-.step_2_item_1 {
+/*.step_2_item_1 {
     position: absolute;
     top: 185px;
     left: 12%;
+}*/
+
+.step_2_item_1 {
+    position: absolute;
+    top: 185px;
+    left: 146px;
 }
 
 .step_2_item_2 {
     max-width: 230px;
     position: absolute;
     top: 427px;
-    left: 21%;
+    /*left: 21%;*/
+    left: 285px;
 }
 
 .step_2_item_3 {
@@ -2222,7 +2238,9 @@ div.svg div.rateit-preset {
     max-width: 230px;
     position: absolute;
     top: 427px;
-    right: 21%;
+    /*right: 21%;*/
+    /*right: 118px;*/
+    right: 280px;
 }
 
 .step_2_item_5 {
@@ -2362,6 +2380,7 @@ div.svg div.rateit-preset {
 .submit_wrapp_2 {
     padding: 34px 0 10px 0;
     text-align: center;
+    min-width: 210px;
 }
 
 .submit_wrapp_2 .orange_pill {

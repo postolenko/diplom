@@ -8,6 +8,80 @@
 
 /*-- /Section 5 - Main Page --*/
 
+/*-- Section 1 - Author Page --*/
+
+.promo_shape_2 {
+    bottom: -40px;
+    right: 0;
+    max-width: 600px;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 1 - Author Page --*/
+
+.steps_wrapp {
+    height: 484px;
+    max-width: 935px;
+}
+
+.steps_lines {
+    width: 900px;
+}
+
+.step_item {
+    max-width: 240px;
+}
+
+.step_item h3 {
+    font-size: 18px;
+}
+
+.step_item p.price_range {
+    font-size: 27px;
+}
+
+.step_1 {
+    bottom: -4px;
+    left: 7%;
+}
+
+.step_2 {
+    bottom: 80px;
+    left: 35%;
+}
+
+.step_3 {
+    bottom: 154px;
+    left: 59%;
+}
+
+.step_4 {
+    bottom: 270px;
+    left: 82%;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.right_icons {
+    left: 10px;
+}
+
+.steps_scale_wrapp {
+    height: 589px;
+}
+
+.steps_scale {
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    position: relative;
+    top: -71px;
+}
+
+/*-- /Section 3 - Author Page --*/
+
 .footer_shape {
 	display: none;
 }
@@ -326,6 +400,14 @@ h1 {
 
 /*-- /Section 2 - About --*/
 
+/*-- Section 3 - Author Page --*/
+
+.right_icons {
+    display: none;
+}
+
+/*-- /Section 3 - Author Page --*/
+
 /*-- Footer --*/
 
 .footer_two_cols_2 {
@@ -598,12 +680,58 @@ h2 {
 
 /*-- /Section 5 - About --*/
 
+/*-- Section 1 - Author Page --*/
+
+.sect_2_ap {
+    padding: 30px 0 40px 0;
+}
+
+.step_item {
+    max-width: 192px;
+    padding: 10px 10px 10px 10px;
+}
+
+.step_item h3 {
+    font-size: 16px;
+}
+
+.step_item p {
+    font-size: 16px;
+}
+
+.step_item p.price_range {
+    font-size: 22px;
+}
+
+.step_1 {
+    bottom: 26px;
+    left: 7%;
+}
+
+.step_2 {
+    bottom: 109px;
+    left: 35%;
+}
+
+.step_3 {
+    bottom: 185px;
+    left: 62%;
+}
+
+.step_4 {
+    bottom: 297px;
+    left: 81%;
+}
+
+/*-- /Section 1 - Author Page --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
 
 .wrapper {
-    padding-top: 70px;
+    /*padding-top: 70px;*/
+    padding-top: 62px;
 }
 
 /*-- Header --*/
@@ -738,6 +866,69 @@ h2 {
 }
 
 /*-- /Section 4 - About --*/
+
+/*-- Section 1 - Author Page --*/
+
+.promo_shape_2 {
+    bottom: -26px;
+    max-width: 400px;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 2 - Author Page --*/
+
+.steps_wrapp {
+    height: 400px;
+    max-width: 690px;
+    margin: -10px auto 0 auto;
+}
+
+.steps_lines {
+    width: 670px;
+}
+
+.step_item {
+    max-width: 137px;
+}
+
+.step_item h3 {
+    font-size: 13px;
+}
+
+.step_item p.price_range {
+    font-size: 18px;
+}
+
+.step_2 {
+    bottom: 89px;
+    left: 34%;
+}
+
+.step_3 {
+    bottom: 142px;
+    left: 59%;
+}
+
+.step_4 {
+    bottom: 230px;
+}
+
+/*-- /Section 2 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.steps_scale_wrapp {
+    height: 515px;
+}
+
+.steps_scale {
+    transform: scale(.7);
+    -webkit-transform: scale(.7);
+    top: -107px;
+}
+
+/*-- /Section 3 - Author Page --*/
 
 /*-- Footer --*/
 
@@ -1000,6 +1191,72 @@ h2 {
 }
 
 /*-- /Section 5 - About --*/
+
+/*-- Section 1 - Author Page --*/
+
+.h1_wrapp_2 p {
+    font-size: 26px;
+    line-height: 33px;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.sect_3_ap {
+    padding-top: 4px;
+}
+
+.steps_scale_wrapp {
+    height: 438px;
+}
+
+.steps_2_wrapp {
+    margin: 10px auto 6px auto;
+}
+
+.steps_scale {
+    transform: scale(.6);
+    -webkit-transform: scale(.6);
+    top: -147px;
+}
+
+.steps_2_cirlce .circle_icon {
+    margin: 4px auto 8px auto;
+}
+
+.steps_2_cirlce h3 {
+    padding: 3px 0;
+    font-size: 22px;
+}
+
+.steps_2_cirlce p {
+    font-size: 18px;
+}
+
+/*-- /Section 3 - Author Page --*/
+
+/*-- Section 4 - Author Page --*/
+
+.items_two_cols_2 {
+    margin: 10px auto;
+}
+
+.items_two_cols_2 > div:nth-child(odd),
+.items_two_cols_2 > div:nth-child(even) {
+    width: 100%;
+    padding: 0;
+}
+
+.items_two_cols_2 > div:nth-child(odd) .item_4:last-child {
+    margin-bottom: 0;
+}
+
+.items_two_cols_2 > div:nth-child(even) .item_4:last-child {
+    margin-bottom: 0;
+}
+
+/*-- /Section 4 - Author Page --*/
 
 }
 
@@ -1276,6 +1533,118 @@ h1 {
 
 /*-- /Section 1 - About --*/
 
+/*-- Section 1 - Author Page --*/
+
+.sect_1_ap {
+    background-image: none;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.sect_3_ap:before {
+    display: none;
+}
+
+.steps_bg {
+    display: none;
+}
+
+.steps_scale_wrapp {
+    height: auto;
+}
+
+.steps_2_wrapp {
+    height: auto;
+    width: 100%;
+}
+
+.steps_scale {
+    transform: none;
+    top: 0;
+}
+
+.steps_2_wrapp {
+    height: auto;
+    width: 100%;
+    margin: 51px auto 6px auto;
+    left: 0;
+    transform: none;
+}
+
+.steps_2_cirlce {
+    background: #fff;
+    width: calc(100% - 20px);
+    margin: 10px;
+    height: auto;
+    border-radius: 0;
+    padding-bottom: 20px;
+}
+
+.steps_2_cirlce h3 {
+    font-size: 20px;
+}
+
+.steps_2_cirlce p {
+    font-size: 16px;
+}
+
+.step_2_item {
+    width: calc(50% - 20px);
+    max-width: calc(50% - 20px);
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px 10px;
+    position: relative;
+    top: 0 !important;
+    left: 0 !important;
+    right: auto !important;
+}
+
+.step_2_item_3 {
+    width: calc(100% - 20px);
+    max-width: calc(100% - 20px);
+}
+
+.steps_inner {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+/*-- /Section 3 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.sect_4_ap:before {
+    display: none;
+}
+
+/*-- /Section 3 - Author Page --*/
+
+/*-- Section 4 - Author Page --*/
+
+.item_4 {
+    margin: 20px 0;
+}
+
+.item_4 > div:nth-child(1) {
+    width: 90px;
+}
+
+.item_4 > div:nth-child(2) {
+    width: calc(100% - 90px);
+}
+
+.item_4 h3 {
+    font-size: 19px;
+}
+
+/*-- /Section 4 - Author Page --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1341,6 +1710,57 @@ h1 {
 }
 
 /*-- /Section 2 - About --*/
+
+/*-- Section 1 - Author Page --*/
+
+.h1_wrapp_2 p {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+.items_two_cols > div:nth-child(odd) {
+    width: 100%;
+    padding: 0;
+}
+
+.items_two_cols > div:nth-child(even) {
+    width: 100%;
+    padding: 0;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 2 - Author Page --*/
+
+.steps_wrapp {
+    height: 310px;
+}
+
+.steps_lines {
+    width: 450px;
+}
+
+.step_1 {
+    bottom: 26px;
+    left: 1%;
+}
+
+.step_2 {
+    bottom: 65px;
+    left: 28%;
+}
+
+.step_3 {
+    bottom: 103px;
+    left: 53%;
+}
+
+.step_4 {
+    bottom: 162px;
+    left: 79%;
+}
+
+/*-- .Section 2 - Author Page --*/
 
 /*-- Footer --*/
 
@@ -1431,6 +1851,59 @@ h1 {
 }
 
 /*-- /Section 4 - About --*/
+
+/*-- Section 1 - Author Page --*/
+
+.promo_shape_2 {
+    display: none;
+}
+
+/*-- /Section 1 - Author Page --*/
+
+/*-- Section 2 - Author Page --*/
+
+.sect_2_ap:before {
+    display: none;
+}
+
+.steps_wrapp {
+    height: auto;
+}
+
+.steps_lines {
+    display: none;
+}
+
+.step_item {
+    margin: 10px 0;
+    max-width: 100%;
+    position: relative !important;
+    bottom: 0 !important;
+    left: 0 !important;
+}
+
+.step_item h3 {
+    font-size: 17px;
+}
+
+.step_item p.price_range {
+    font-size: 22px;
+}
+
+.step_item p {
+    font-size: 20px;
+}
+
+/*-- /Section 2 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.step_2_item p {
+    padding: 3px 0;
+    font-size: 18px;
+}
+
+/*-- /Section 3 - Author Page --*/
 
 }
 
@@ -1602,6 +2075,56 @@ h2 {
 }
 
 /*-- /Section 5 - About --*/
+
+/*-- Section 3 - Author Page --*/
+
+.steps_2_wrapp {
+    margin: 20px auto 6px auto;
+}
+
+.step_2_item p {
+    font-size: 14px;
+}
+
+/*-- /Section 3 - Author Page --*/
+
+/*-- Section 4 - Author Page --*/
+
+.sect_4_ap {
+    padding-top: 30px;
+}
+
+.item_4 {
+    display: block;
+}
+
+.item_4 > div:nth-child(1) {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.item_4 > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+}
+
+.item_4 > div:nth-child(1) img {
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.form_wrapp_2 {
+    margin: 50px auto 50px auto;
+}
+
+.form_wrapp_2 h3 {
+    font-size: 24px;
+}
+
+/*-- /Section 4 - Author Page --*/
 
 }
 
