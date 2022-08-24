@@ -78,7 +78,12 @@ $(document).ready(function() {
     $(document).on("click", ".custom_select .p_val", function(e) {
       e.preventDefault();
       parent = $(this).closest(".custom_select");
-      parent.toggleClass("active");
+      if(parent.hasClass("active")) {
+        parent.removeClass("active");
+      } else {
+        $(".custom_select").removeClass("active");
+        parent.addClass("active");
+      }
     });
 
     $(document).mouseup(function(e) {
@@ -204,5 +209,120 @@ $(document).ready(function() {
                 $(".respmenubtn").removeClass("active");
         }
     });
+
+    // ----------------
+
+    var fileInput = document.querySelector("#myfiles");
+    var pullfiles=function(){      
+        var files = fileInput.files;
+        var fl=files.length;
+        var i=0;
+        var dropArea = $("#dropArea");
+        var templ = "";
+        var file;
+        while ( i < fl) {
+            file = files[i];
+            console.log(file);
+            fileUrl = URL.createObjectURL(file);
+            if(fileUrl) {
+            templ += '<div class="drop_image_card_wrapp">'+
+                          '<div class="drop_image_card">'+
+                            '<div class="img_box">'+
+                              '<img src="'+fileUrl+'" alt="" />'+
+                              '<div class="drop_image_card_mask">'+
+                                '<div class="drag_n_drop"></div>'+
+                                '<div class="controls_btns">'+
+                                  '<div>'+
+                                    '<button type="button" class="control_btn rotate"></button>'+
+                                  '</div>'+
+                                  '<div>'+
+                                    '<button type="button" class="control_btn trash"></button>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>'+
+                            '<div class="drop_image_card_descript">'+
+                              '<button type="button" class="edit_btn" data-popup-link = "popup_edit_obj"></button>'+
+                              '<div class="drop_image_title">'+
+                                '<h3></h3>'+
+                              '</div>'+
+                              '<div class="drop_image_text">'+
+                                '<p></p>'+
+                              '</div>'+
+                            '</div>'+
+                          '</div>'+
+                        '</div>';
+                      }
+            i++;
+        }
+        dropArea.prepend(templ);
+
+        // new Sortable(document.getElementById('dropArea'), {
+        //     onEnd: function (evt) {
+        //       $("#dropArea .upl_btn").appendTo($("#dropArea"));
+        //     }
+        // });
+
+    }
+
+    if($("#myfiles").length > 0 ) {
+      document.querySelector("#myfiles").onchange=pullfiles;
+      dropArea.addEventListener('dragover', (event) => {
+        event.stopPropagation();
+        event.preventDefault();
+        event.dataTransfer.dropEffect = 'copy';
+      });
+      dropArea.addEventListener('drop', (event) => {
+        event.stopPropagation();
+        event.preventDefault();
+        var files = event.dataTransfer.files;
+          var fl=files.length;
+          var i=0;
+          var dropArea = $("#dropArea");
+          var templ = "";
+          var file;
+          while ( i < fl) {
+              file = files[i];
+              fileUrl = URL.createObjectURL(file);
+              if(fileUrl) {
+              templ += '<div class="drop_image_card_wrapp">'+
+                            '<div class="drop_image_card">'+
+                              '<div class="img_box">'+
+                                '<img src="'+fileUrl+'" alt="" />'+
+                                '<div class="drop_image_card_mask">'+
+                                  '<div class="drag_n_drop"></div>'+
+                                  '<div class="controls_btns">'+
+                                    '<div>'+
+                                      '<button type="button" class="control_btn rotate"></button>'+
+                                    '</div>'+
+                                    '<div>'+
+                                      '<button type="button" class="control_btn trash"></button>'+
+                                    '</div>'+
+                                  '</div>'+
+                                '</div>'+
+                              '</div>'+
+                              '<div class="drop_image_card_descript">'+
+                                '<button type="button" class="edit_btn" data-popup-link = "popup_edit_obj"></button>'+
+                                '<div class="drop_image_title">'+
+                                  '<h3></h3>'+
+                                '</div>'+
+                                '<div class="drop_image_text">'+
+                                  '<p></p>'+
+                                '</div>'+
+                              '</div>'+
+                            '</div>'+
+                          '</div>';
+                        }
+              i++;
+          }
+          dropArea.prepend(templ);
+          // new Sortable(document.getElementById('dropArea'), {
+          //     onEnd: function (evt) {
+          //       $("#dropArea .upl_btn").appendTo($("#dropArea"));
+          //     }
+          // });
+
+      });
+    }
 
 });
