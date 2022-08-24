@@ -7,7 +7,11 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-
+  if($(".scroll_x").length > 0) {
+    $(".scroll_x").mCustomScrollbar({
+      axis:"x"
+    });
+  }
 
 });
 

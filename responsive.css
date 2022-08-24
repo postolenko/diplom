@@ -213,6 +213,22 @@ h1 {
 
 /*-- /Section 1 - About --*/
 
+/*-- Section 1 - Prices --*/
+
+.price_promo_shape {
+    right: 0;
+}
+
+.h1_wrapp_5 h1 {
+    font-size: 40px;
+}
+
+.h1_wrapp_5 > p {
+    font-size: 18px;
+}
+
+/*-- /Section 1 - Prices --*/
+
 /*-- Footer --*/
 
 .links_inlines {
@@ -797,12 +813,48 @@ h2 {
 
 /*-- /Section 5 - Service --*/
 
+/*-- Section 2 - Prices --*/
+
+.price_table_wrapp {
+    padding: 12px 10px 29px 10px;
+}
+
+.price_table_row > div:nth-child(1) {
+    width: 35%;
+}
+
+.price_table_row > div:nth-child(2) {
+    width: 22%;
+}
+
+.price_table_row > div:nth-child(3) {
+    width: 19%;
+    padding: 5px 10px;
+}
+
+.price_table_row .transparent_pill {
+    font-size: 17px;
+}
+
+.price_table_row > div:nth-child(1) p {
+    font-size: 18px;
+}
+
+.price_table_row > div:nth-child(2) p {
+    font-size: 18px;
+}
+
+.price {
+    font-size: 17px;
+}
+
+/*-- /Section 2 - Prices --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
 
 .wrapper {
-    /*padding-top: 70px;*/
     padding-top: 62px;
 }
 
@@ -1021,6 +1073,15 @@ h2 {
 }
 
 /*-- /Section 3 - Service --*/
+
+/*-- Section 1 - Prices --*/
+
+.price_promo_shape {
+    width: 400px;
+    bottom: -38px;
+}
+
+/*-- /Section 1 - Prices --*/
 
 /*-- Footer --*/
 
@@ -1407,6 +1468,35 @@ h2 {
 }
 
 /*-- /Section 6 - Service --*/
+
+/*-- Section 2 - Prices --*/
+
+.search_form h2 {
+    font-size: 31px;
+    line-height: 43px;
+}
+
+.prices_wrapp {
+    margin: 45px auto 50px auto;
+}
+
+.search_form {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.search_form > div:nth-child(2) {
+    width: calc(100% - 260px);
+    padding: 5px 5px 5px 0;
+}
+
+.search_form > div:nth-child(1) {
+    width: 100%;
+    padding: 5px 0;
+    text-align: center;
+}
+
+/*-- /Section 2 - Prices --*/
 
 }
 
@@ -1888,6 +1978,51 @@ h1 {
 
 /*-- /Section 6 - Service --*/
 
+/*-- Section 1 - Prices --*/
+
+.sect_1_price {
+    background-image: none;
+}
+
+.h1_wrapp_5 h1 {
+    font-size: 29px;
+}
+
+.price_promo_shape {
+    display: none;
+}
+
+.item_6 p {
+    font-size: 16px;
+}
+
+/*-- /Section 1 - Prices --*/
+
+/*-- Section 2 - Prices --*/
+
+.search_form > div:nth-child(2) {
+    width: calc(100% - 90px);
+}
+
+.search_form > div:nth-child(3) {
+    width: 90px;
+}
+
+.search_form > div:nth-child(3) .orange_pill {
+    min-width: 100%;
+}
+
+.price_table_row > div:nth-child(2) {
+    width: 20%;
+}
+
+.price_table_row > div:nth-child(3) {
+    width: 21%;
+    padding: 5px 10px;
+}
+
+/*-- /Section 2 - Prices --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -2004,6 +2139,47 @@ h1 {
 }
 
 /*-- .Section 2 - Author Page --*/
+
+/*-- Section 2 - Prices --*/
+
+.price_table_wrapp {
+    min-width: 500px;
+    margin: 10px 0;
+}
+
+.price_table_row > div {
+    min-height: 61px;
+}
+
+.price_table_row > div:nth-child(1) p {
+    font-size: 15px;
+}
+
+.price_table_row > div:nth-child(2) p {
+    font-size: 15px;
+}
+
+.price_table h3 {
+    font-size: 15px;
+}
+
+.old_price {
+    font-size: 15px;
+}
+
+.price {
+    font-size: 15px;
+}
+
+.price_table_row .transparent_pill {
+    font-size: 13px;
+}
+
+.search_form .input_wrapp input {
+    font-size: 17px;
+}
+
+/*-- /Section 2 - Prices --*/
 
 /*-- Footer --*/
 
