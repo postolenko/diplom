@@ -408,6 +408,34 @@ h1 {
 
 /*-- /Section 3 - Author Page --*/
 
+/*-- Section 3 - Service --*/
+
+.article_two_cols {
+    width: calc(100% - 500px);
+}
+
+.sect_3_service_shape {
+    width: 400px;
+}
+
+.items_list li {
+    font-size: 16px;
+}
+
+.items_list li .title {
+    font-size: 16px;
+}
+
+/*-- /Section 3 - Service --*/
+
+/*-- Section 6 - Service --*/
+
+.thumb_6 {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 6 - Service --*/
+
 /*-- Footer --*/
 
 .footer_two_cols_2 {
@@ -725,6 +753,50 @@ h2 {
 
 /*-- /Section 1 - Author Page --*/
 
+/*-- Section 1 - Service --*/
+
+.sect_1_service .promo_form {
+    margin-bottom: 0;
+}
+
+/*-- /Section 1 - Service --*/
+
+/*-- Section 5 - Service --*/
+
+.service_article > .left_col {
+    width: 360px;
+}
+
+.service_article > .right_col {
+    width: calc(100% - 360px);
+}
+
+.service_article_2 > .left_col {
+    width: calc(100% - 360px);
+}
+
+.service_article_2 > .right_col {
+    width: 360px;
+}
+
+.service_article > .left_col img {
+    max-width: 100%;
+}
+
+.service_article ul li {
+    font-size: 17px;
+}
+
+.white_box {
+    padding: 29px 15px 28px 15px;
+}
+
+.white_box p {
+    font-size: 17px;
+}
+
+/*-- /Section 5 - Service --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -929,6 +1001,26 @@ h2 {
 }
 
 /*-- /Section 3 - Author Page --*/
+
+/*-- Section 2 - Service --*/
+
+.thumb_5 {
+    width: calc(50% - 26px);
+}
+
+/*-- /Section 2 - Service --*/
+
+/*-- Section 3 - Service --*/
+
+.article_two_cols {
+    width: 100%;
+}
+
+.sect_3_service_shape {
+    display: none;
+}
+
+/*-- /Section 3 - Service --*/
 
 /*-- Footer --*/
 
@@ -1257,6 +1349,64 @@ h2 {
 }
 
 /*-- /Section 4 - Author Page --*/
+
+/*-- Section 5 - Service --*/
+
+.service_article {
+    min-height: auto;
+}
+
+.service_article > .left_col {
+    display: none;
+}
+
+.service_article > .right_col {
+    width: 100%;
+    padding: 0;
+}
+
+.service_article_2 {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.service_article_2 > .left_col {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
+
+.service_article_2 > .right_col {
+    width: 100%;
+    padding: 0;
+}
+
+.service_article ul {
+    padding: 0;
+}
+
+.service_article .white_box {
+    margin: 16px 0;
+    max-width: 100%;
+}
+
+/*-- /Section 5 - Service --*/
+
+/*-- Section 6 - Service --*/
+
+.thumb_6_inner {
+    min-height: 325px;
+}
+
+.thumb_6_two_cols > div:nth-child(1) {
+    width: 100%;
+}
+
+.thumb_6_two_cols > div:nth-child(2) {
+    display: none;
+}
+
+/*-- /Section 6 - Service --*/
 
 }
 
@@ -1645,6 +1795,99 @@ h1 {
 
 /*-- /Section 4 - Author Page --*/
 
+/*-- Section 1 - Service --*/
+
+.sect_1_service {
+    background-image: none;
+}
+
+.thumb_4 > div:nth-child(2) {
+    padding-top: 20px;
+}
+
+.thumb_4 p {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/*-- /Section 1 - Service --*/
+
+/*-- Section 2 - Service --*/
+
+.sect_2_service:before {
+    display: none;
+}
+
+.thumbnails_5_wrapp {
+    padding: 45px 0;
+}
+
+.thumbnails_5 {
+    margin: 23px 0;
+}
+
+.thumb_5 {
+    width: 100%;
+    margin: 13px 0;
+}
+
+/*-- /Section 2 - Service --*/
+
+/*-- Section 3 - Service --*/
+
+.sect_3_service:before {
+    display: none;
+}
+
+/*-- /Section 3 - Service --*/
+
+/*-- Section 4 - Service --*/
+
+.sect_4_service {
+    padding-top: 36px;
+}
+
+.sect_4_service:before {
+    display: none;
+}
+
+.how_works_templ_2 {
+    margin: 50px auto;
+}
+
+/*-- /Section 4 - Service --*/
+
+/*-- Section 5 - Service --*/
+
+.sect_5_service:before {
+    display: none;
+}
+
+/*-- Section 5 - Service --*/
+
+/*-- Section 6 - Service --*/
+
+.sect_6_service:before {
+    display: none;
+}
+
+.thumbnails_6 {
+    margin: 30px 0;
+}
+
+.thumb_6 {
+    width: 100%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+.thumbnails_3_2 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/*-- /Section 6 - Service --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -1714,8 +1957,8 @@ h1 {
 /*-- Section 1 - Author Page --*/
 
 .h1_wrapp_2 p {
-    font-size: 22px;
-    line-height: 30px;
+    font-size: 18px;
+    line-height: 27px;
 }
 
 .items_two_cols > div:nth-child(odd) {
@@ -2125,6 +2368,42 @@ h2 {
 }
 
 /*-- /Section 4 - Author Page --*/
+
+/*-- Section 2 - Service --*/
+
+.thumb_5_title h3 {
+    font-size: 15px;
+}
+
+.thumb_5 p {
+    font-size: 14px;
+}
+
+/*-- /Section 2 - Service --*/
+
+/*-- Section 6 - Service --*/
+
+.thumb_6_inner {
+    padding: 10px 10px;
+}
+
+.thumb_6_content {
+    padding: 0;
+}
+
+.tag p {
+    font-size: 16px;
+}
+
+.btn_wrapp_3 {
+    padding: 10px 0;
+}
+
+.btn_wrapp_3 .orange_pill {
+    min-width: 270px;
+}
+
+/*-- /Section 6 - Service --*/
 
 }
 

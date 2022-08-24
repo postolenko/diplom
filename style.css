@@ -3222,6 +3222,8 @@ div.svg div.rateit-preset {
 }
 
 .service_article > .left_col img {
+    display: block;
+    width: auto;
     position: absolute;
     top: -5px;
     left: -67px;
@@ -3353,6 +3355,7 @@ div.svg div.rateit-preset {
     min-height: 80px;
     background: #1565C0;
     margin: 10px 0;
+    padding: 5px 10px;
     border-radius: 9px;
     -webkit-border-radius: 9px;
 }
