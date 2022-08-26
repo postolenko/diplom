@@ -220,42 +220,22 @@ $(document).ready(function() {
         var dropArea = $("#dropArea");
         var templ = "";
         var file;
+        var parent = $("#dropSect");
+        var fileList = $("#fileList");
+        var templHTML = $(".item_templ");
         while ( i < fl) {
             file = files[i];
-            console.log(file);
             fileUrl = URL.createObjectURL(file);
+            fileName = file.name;
+            fileSize = parseInt(file.size / 1000) + " кб";
             if(fileUrl) {
-            templ += '<div class="drop_image_card_wrapp">'+
-                          '<div class="drop_image_card">'+
-                            '<div class="img_box">'+
-                              '<img src="'+fileUrl+'" alt="" />'+
-                              '<div class="drop_image_card_mask">'+
-                                '<div class="drag_n_drop"></div>'+
-                                '<div class="controls_btns">'+
-                                  '<div>'+
-                                    '<button type="button" class="control_btn rotate"></button>'+
-                                  '</div>'+
-                                  '<div>'+
-                                    '<button type="button" class="control_btn trash"></button>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                            '<div class="drop_image_card_descript">'+
-                              '<button type="button" class="edit_btn" data-popup-link = "popup_edit_obj"></button>'+
-                              '<div class="drop_image_title">'+
-                                '<h3></h3>'+
-                              '</div>'+
-                              '<div class="drop_image_text">'+
-                                '<p></p>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>'+
-                        '</div>';
-                      }
+              $(".file_item_hidden .item_templ .filename").html(fileName);
+              $(".file_item_hidden .item_templ .filesize").html(fileSize);
+              templ += $( ".file_item_hidden").html();
+            }
             i++;
         }
-        dropArea.prepend(templ);
+        fileList.prepend(templ);
 
         // new Sortable(document.getElementById('dropArea'), {
         //     onEnd: function (evt) {
@@ -281,41 +261,22 @@ $(document).ready(function() {
           var dropArea = $("#dropArea");
           var templ = "";
           var file;
+          var parent = $("#dropSect");
+          var fileList = $("#fileList");
+          var templHTML = $(".item_templ");
           while ( i < fl) {
               file = files[i];
               fileUrl = URL.createObjectURL(file);
+              fileName = file.name;
+              fileSize = parseInt(file.size / 1000) + " кб";
               if(fileUrl) {
-              templ += '<div class="drop_image_card_wrapp">'+
-                            '<div class="drop_image_card">'+
-                              '<div class="img_box">'+
-                                '<img src="'+fileUrl+'" alt="" />'+
-                                '<div class="drop_image_card_mask">'+
-                                  '<div class="drag_n_drop"></div>'+
-                                  '<div class="controls_btns">'+
-                                    '<div>'+
-                                      '<button type="button" class="control_btn rotate"></button>'+
-                                    '</div>'+
-                                    '<div>'+
-                                      '<button type="button" class="control_btn trash"></button>'+
-                                    '</div>'+
-                                  '</div>'+
-                                '</div>'+
-                              '</div>'+
-                              '<div class="drop_image_card_descript">'+
-                                '<button type="button" class="edit_btn" data-popup-link = "popup_edit_obj"></button>'+
-                                '<div class="drop_image_title">'+
-                                  '<h3></h3>'+
-                                '</div>'+
-                                '<div class="drop_image_text">'+
-                                  '<p></p>'+
-                                '</div>'+
-                              '</div>'+
-                            '</div>'+
-                          '</div>';
-                        }
+                $(".file_item_hidden .item_templ .filename").html(fileName);
+                $(".file_item_hidden .item_templ .filesize").html(fileSize);
+                templ += $( ".file_item_hidden").html();
+              }
               i++;
           }
-          dropArea.prepend(templ);
+          fileList.prepend(templ);
           // new Sortable(document.getElementById('dropArea'), {
           //     onEnd: function (evt) {
           //       $("#dropArea .upl_btn").appendTo($("#dropArea"));
@@ -324,5 +285,13 @@ $(document).ready(function() {
 
       });
     }
+
+    // -----------------
+
+    $(document).on("click",".del", function(e) {
+      e.preventDefault();
+      parent = $(this).closest(".file_item");
+      parent.remove();
+    });
 
 });

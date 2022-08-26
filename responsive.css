@@ -452,6 +452,45 @@ h1 {
 
 /*-- /Section 6 - Service --*/
 
+/*-- Section 1 - Order --*/
+
+.order_form_inner {
+    padding: 20px 25px 30px 25px;
+}
+
+.order_form_title {
+    padding: 10px 20px 15px 20px;
+}
+
+.order_form_title h2 {
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.order_form_title p {
+    font-size: 23px;
+    line-height: 29px;
+}
+
+.input_two_cols_2 > div:nth-child(1) {
+    width: 190px;
+}
+
+.input_two_cols_2 > div:nth-child(2) {
+    width: calc(100% - 190px);
+}
+
+.input_two_cols_2 h3 {
+    font-size: 16px;
+    line-height: 17px;
+}
+
+.submit_wrapp_3 {
+    margin: 10px 0 0 215px;
+}
+
+/*-- /Section 1 - Order --*/
+
 /*-- Footer --*/
 
 .footer_two_cols_2 {
@@ -850,6 +889,7 @@ h2 {
 
 /*-- /Section 2 - Prices --*/
 
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1082,6 +1122,39 @@ h2 {
 }
 
 /*-- /Section 1 - Prices --*/
+
+/*-- Section 1 - Order --*/
+
+.order_steps {
+    margin: 0 -20px;
+}
+
+.step_order {
+    min-height: 170px;
+    width: calc(25% - 40px);
+    margin: 20px;
+    padding: 15px 10px 15px 10px;
+}
+
+.step_num {
+    font-size: 57px;
+    line-height: 70px;
+}
+
+.step_order p {
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.step_order:after {
+    width: 69px;
+    height: 102px;
+    top: 23px;
+    right: -48px;
+    z-index: 2;
+}
+
+/*-- /Section 1 - Order --*/
 
 /*-- Footer --*/
 
@@ -1497,6 +1570,44 @@ h2 {
 }
 
 /*-- /Section 2 - Prices --*/
+
+/*-- Section 1 - Order --*/
+
+.order_steps_wrapp {
+    margin: 10px auto;
+}
+
+.order_form {
+    margin: 10px auto;
+}
+
+.input_two_cols_2 {
+    margin: 3px 0;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.input_two_cols_2 > div:nth-child(1) {
+    width: 100%;
+    padding: 2px 0;
+}
+
+.input_two_cols_2 > div:nth-child(2) {
+    width: 100%;
+    padding: 2px 0;
+}
+
+.input_two_cols_2 h3 {
+    font-size: 15px;
+    text-align: left;
+}
+
+.submit_wrapp_3 {
+    margin: 10px auto;
+    text-align: center;
+}
+
+/*-- /Section 1 - Order --*/
 
 }
 
@@ -2023,6 +2134,127 @@ h1 {
 
 /*-- /Section 2 - Prices --*/
 
+/*-- Section 1 - Order --*/
+
+.step_num {
+    font-size: 44px;
+    line-height: 48px;
+}
+
+.order_steps {
+    margin: 0 -10px;
+}
+
+.step_order {
+    width: calc(25% - 20px);
+    margin: 10px;
+    min-height: 140px;
+    padding: 5px 10px 15px 10px;
+}
+
+.step_order p {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 500;
+}
+
+.step_order:after {
+    width: 45px;
+    height: 57px;
+    top: 12px;
+    right: -36px;
+}
+
+/*-- /Section 1 - Order --*/
+
+/*-- Section 1 - Order --*/
+
+.order_form_inner {
+    padding: 5px 15px 15px 15px;
+}
+
+.order_form_title {
+    padding: 10px 0 15px 0;
+}
+
+.order_form_title h2 {
+    font-size: 26px;
+    line-height: 35px;
+}
+
+.order_form_title p {
+    font-size: 21px;
+    line-height: 27px;
+}
+
+.input_wrapp input,
+.input_wrapp_2 input {
+    height: 35px;
+    line-height: 35px;
+}
+
+.input_wrapp .custom_select_title,
+.input_wrapp_2 .custom_select_title {
+    height: 35px;
+}
+
+.input_wrapp .custom_select_title:after,
+.input_wrapp_2 .custom_select_title:after {
+    top: 14px;
+}
+
+.input_wrapp .p_val,
+.input_wrapp_2 .p_val {
+    line-height: 35px;
+}
+
+.input_date_wrapp.input_wrapp_2 input {
+    height: 35px;
+}
+
+.percent_input p {
+    font-size: 20px;
+    top: 9px;
+}
+
+.input_wrapp textarea {
+    height: 70px;
+}
+
+.submit_wrapp_3 .orange_pill {
+    min-height: 43px;
+}
+
+.checked_thumbs {
+    margin: 0 -5px;
+}
+
+.checked_thumb {
+    width: calc(33.33% - 10px);
+    margin: 5px;
+}
+
+.checked_thumb_title p {
+    font-size: 13px !important;
+    line-height: 18px !important;
+    top: 3px;
+    right: 11px;
+}
+
+.files_list_wrapp {
+    padding: 0 10px;
+}
+
+.file_item > div:nth-child(1) {
+    width: calc(100% - 235px);
+}
+
+.file_item > div:nth-child(2) {
+    width: 210px;
+}
+
+/*-- /Section 1 - Order --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -2324,6 +2556,61 @@ h1 {
 
 /*-- /Section 3 - Author Page --*/
 
+/*-- Section 1 - Order --*/
+
+.step_num {
+    font-size: 44px;
+    line-height: 48px;
+}
+
+.order_steps {
+    margin: 0 -10px;
+}
+
+.step_order {
+    width: calc(50% - 20px);
+    margin: 10px;
+    min-height: auto;
+    padding: 5px 10px 15px 10px;
+}
+
+.step_order p {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.step_order:nth-child(even):after {
+    display: none;
+}
+
+.input_two_cols_2 {
+    margin: 0;
+}
+
+.checked_thumb_title {
+    padding-top: 14px;
+}
+
+.checked_thumb_desc {
+    padding: 5px 5px 5px 5px;
+}
+
+.file_item {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 5px 0;
+}
+
+.file_item > div:nth-child(1) {
+    width: 100%;
+}
+
+.file_item > div:nth-child(2) {
+    width: calc(100% - 25px);
+}
+
+/*-- /Section 1 - Order --*/
+
 }
 
 @media only screen and (max-width: 480px) {
@@ -2580,6 +2867,81 @@ h2 {
 }
 
 /*-- /Section 6 - Service --*/
+
+/*-- Section 1 - Order --*/
+
+.order_steps {
+    margin: 0 -4px;
+}
+
+.step_order {
+    width: calc(50% - 8px);
+    margin: 4px;
+    padding: 5px 5px 5px 5px;
+}
+
+.step_order:after {
+    top: 38px;
+    right: -28px;
+}
+
+/*-- /Section 1 - Order --*/
+
+/*-- Section 1 - Order --*/
+
+.input_two_cols {
+    padding: 3px 0;
+}
+
+.input_two_cols_2 h3 {
+    font-size: 14px;
+}
+
+.checked_thumb {
+    width: calc(33.33% - 4px);
+    margin: 2px;
+}
+
+.checked_thumb p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.input_inlines {
+    margin: 0 -5px;
+}
+
+.input_inlines > div {
+    width: 50%;
+    max-width: 50%;
+    padding: 0 5px;
+}
+
+.submit_wrapp_3 {
+    width: 100%;
+}
+
+.submit_wrapp_3 .orange_pill {
+    min-width: 100%;
+}
+
+.drop_area {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    padding: 10px 5px 10px 5px;
+}
+
+.drop_area > div {
+    width: 100%;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.files_list_wrapp {
+    padding: 0 10px 0 10px;
+}
+
+/*-- /Section 1 - Order --*/
 
 }
 
