@@ -2475,7 +2475,7 @@ h1 {
 
 .input_two_cols > div:nth-child(1) {
     width: 100%;
-    padding: 5px 0;
+    padding: 5px 0 0 0;
 }
 
 .input_two_cols > div:nth-child(2) {
@@ -2889,8 +2889,26 @@ h2 {
 
 /*-- Section 1 - Order --*/
 
+.order_form_title {
+    padding: 6px 0 6px 0;
+}
+
+.order_form_title {
+    text-align: center;
+}
+
+.order_form_title h2 {
+    font-size: 18px;
+    line-height: 31px;
+}
+
+.order_form_title p {
+    font-size: 14px;
+    line-height: 18px;
+}
+
 .input_two_cols {
-    padding: 3px 0;
+    padding: 1px 0;
 }
 
 .input_two_cols_2 h3 {
@@ -2923,12 +2941,13 @@ h2 {
 
 .submit_wrapp_3 .orange_pill {
     min-width: 100%;
+    font-size: 16px;
 }
 
 .drop_area {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
-    padding: 10px 5px 10px 5px;
+    padding: 5px 5px 5px 5px;
 }
 
 .drop_area > div {
@@ -2939,6 +2958,13 @@ h2 {
 
 .files_list_wrapp {
     padding: 0 10px 0 10px;
+}
+
+.drop_plus_btn {
+    padding: 10px 10px;
+    min-height: 35px;
+    font-size: 15px;
+    line-height: 17px;
 }
 
 /*-- /Section 1 - Order --*/

@@ -33,12 +33,12 @@ $(document).ready(function() {
         $(".slider").not(".slick-initialized").slick({
             dots: true,
             arrows: true,
-            // autoplay: true,
+            autoplay: true,
             autoplaySpeed: 4000,
-            speed: 1200,
+            speed: 2000,
             variableWidth: true,
             slidesToShow: 3,
-            slidesToScroll: 2,
+            slidesToScroll: 3,
             centerMode: true,
             appendDots: $(".slider_dots"),
             appendArrows: $(".slider_arrows"),
@@ -108,7 +108,8 @@ $(document).ready(function() {
 
     new AirDatepicker('#time',{
       timepicker: true,
-      onlyTimepicker: true
+      onlyTimepicker: true,
+      position: "bottom right"
     });
 
     // ------------
