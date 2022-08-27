@@ -38,7 +38,7 @@ $(document).ready(function() {
             speed: 2000,
             variableWidth: true,
             slidesToShow: 3,
-            slidesToScroll: 3,
+            slidesToScroll: 1,
             centerMode: true,
             appendDots: $(".slider_dots"),
             appendArrows: $(".slider_arrows"),

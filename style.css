@@ -1278,15 +1278,20 @@ div.svg div.rateit-preset {
 }
 
 .slider_wrapp {
-    max-width: 1600px;
+    max-width: 1780px;
     margin: 30px auto;
+}
+
+.slider .slide {
+    width: 360px;
 }
 
 .thumb_1 {
     display: block;
     width: 100%;
     max-width: 352px;
-    margin: 20px;
+    min-height: 564px;
+    margin: 25px auto 30px auto;
     position: relative;
 }
 
@@ -1307,13 +1312,36 @@ div.svg div.rateit-preset {
     position: relative;
     z-index: 3;
     background: #FFF;
-    /*padding: 0 20px;*/
+    min-height: 564px;
     padding: 0 14px;
     border: 2px solid #367FD3;
     box-shadow: 0 4.47273px 4.47273px rgba(0, 0, 0, .25);
     -webkit-box-shadow: 0 4.47273px 4.47273px rgba(0, 0, 0, .25);
     border-radius: 10px;
     -webkit-border-radius: 10px;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .8s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .8s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .8s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .8s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .8s;
+    transition-timing-function: ease;
+}
+
+.slider .slide .thumb_1:hover .thumb_1_inner {
+    border: 2px solid #367FD3;
 }
 
 .thumb_1_icon {
@@ -1359,6 +1387,7 @@ div.svg div.rateit-preset {
 }
 
 .thumb_1_text {
+    min-height: 100px;
     padding: 20px 0 15px 0;
     text-align: center;
 }
@@ -1370,7 +1399,7 @@ div.svg div.rateit-preset {
 }
 
 .thumb_1_footer {
-    padding-bottom: 29px;
+    padding-bottom: 25px;
     text-align: center;
 }
 
@@ -1419,37 +1448,12 @@ div.svg div.rateit-preset {
     background: linear-gradient(180deg, #FD8C04 0%, #FD8C04 100%);
 }
 
-.slider .slide .thumb_1 {
-/*    transform: scale(.7);
-    -webkit-transform: scale(.7);
-    opacity: .2;*/
-    /*transform: matrix(0, 0, 0, 0, 0, 0);*/
-}
-
 .slider .slide .thumb_1 .thumb_1_inner {
     border: 2px solid #BDC4C6;
 }
 
-.slider .slick-current .slide .thumb_1 .thumb_1_inner {
+/*.slider .slick-current .slide .thumb_1 .thumb_1_inner {
     border: 2px solid #367FD3;
-}
-
-/*.slider .slick-current + .slick-slide .slide .thumb_1 {
-    transform: scale(.8);
-    -webkit-transform: scale(.8);
-    opacity: .5;
-}*/
-
-/*.slick-slide.slick-active .slide .thumb_1 {
-    transform: scale(.8);
-    -webkit-transform: scale(.8);
-    opacity: .5;
-}
-
-.slider .slick-current .slide .thumb_1 {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    opacity: 1;
 }*/
 
 .slider_arrows {
@@ -1532,329 +1536,49 @@ div.svg div.rateit-preset {
     min-height: 580px;
 }
 
-.slick-slide .thumb_1 {
-    width: 260px;
+.slider .slide .thumb_1 {
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
     opacity: .3;
-    -webkit-transition-property: width, opacity;
-    -webkit-transition-duration: .2s;
+    -webkit-transition-property: transform, opacity;
+    -webkit-transition-duration: .8s;
     -webkit-transition-timing-function: ease;
-    -webkit-transition-delay: 1s;
 
-    -moz-transition-property: width, opacity;
-    -moz-transition-duration: .2s;
+    -moz-transition-property: transform, opacity;
+    -moz-transition-duration: .8s;
     -moz-transition-timing-function: ease;
-    -moz-transition-delay: 1s;
 
-    -ms-transition-property: width, opacity;
-    -ms-transition-duration: .2s;
+    -ms-transition-property: transform, opacity;
+    -ms-transition-duration: .8s;
     -ms-transition-timing-function: ease;
-    -ms-transition-delay: 1s;
 
-    -o-transition-property: width, opacity;
-    -o-transition-duration: .2s;
+    -o-transition-property: transform, opacity;
+    -o-transition-duration: .8s;
     -o-transition-timing-function: ease;
-    -o-transition-delay: 1s;
 
-    transition-property: width, opacity;
-    transition-duration: .2s;
+    transition-property: transform, opacity;
+    transition-duration: .8s;
     transition-timing-function: ease;
-    transition-delay: .3s;
 }
 
-.slick-slide .thumb_1 .thumb_1_title {
-    padding: 20px 0 5px 0;
-    -webkit-transition-property: padding;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: padding;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: padding;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: padding;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: padding;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
+.slider .slick-active .slide .thumb_1 {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    opacity: .7;
 }
 
-.slick-slide .thumb_1 .thumb_1_title h3 {
-    font-size: 15px;
-    line-height: 18px;
-    -webkit-transition-property: font-size, line-height;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: font-size, line-height;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: font-size, line-height;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: font-size, line-height;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: font-size, line-height;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
+.slider .slick-current .slide .thumb_1 {
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    opacity: .7;
 }
 
-.slick-slide .thumb_1 .thumb_1_price p {
-    font-size: 16px;
-    line-height: 19px;
-    -webkit-transition-property: font-size, line-height;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: font-size, line-height;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: font-size, line-height;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: font-size, line-height;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: font-size, line-height;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
+.slider .slide .thumb_1:hover {
+    transform: scale(1) !important;
+    -webkit-transform: scale(1) !important;
+    opacity: 1;
 }
 
-.slick-slide .thumb_1 .thumb_1_text p {
-    font-size: 11px;
-    line-height: 13px;
-    -webkit-transition-property: font-size, line-height;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: font-size, line-height;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: font-size, line-height;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: font-size, line-height;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: font-size, line-height;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
-}
-
-.slick-slide .thumb_1 .grey_pill {
-    width: 70%;
-    min-height: 31px;
-    font-size: 16px;
-    line-height: 19px;
-    -webkit-transition-property: font-size, line-height, min-height;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: font-size, line-height, min-height;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: font-size, line-height, min-height;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: font-size, line-height, min-height;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: font-size, line-height, min-height;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
-}
-
-.slick-slide .thumb_1 .thumb_1_text {
-    padding: 15px 0 15px 0;
-    -webkit-transition-property: padding;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: padding;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: padding;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: padding;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: padding;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
-}
-
-.slick-slide .thumb_1 .thumb_1_icon {
-    margin: 9px 0 0 0;
-    -webkit-transition-property: margin;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: margin;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: margin;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: margin;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: margin;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
-}
-
-.slick-slide .thumb_1 .thumb_1_footer {
-    padding-bottom: 21px;
-    -webkit-transition-property: padding;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: padding;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: padding;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: padding;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: padding;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: ..3s;
-}
-
-.slick-slide .thumb_1 .thumb_1_icon {
-    height: 100px;
-    -webkit-transition-property: height;
-    -webkit-transition-duration: .2s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: height;
-    -moz-transition-duration: .2s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: height;
-    -ms-transition-duration: .2s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: height;
-    -o-transition-duration: .2s;
-    -o-transition-timing-function: ease;
-
-    transition-property: height;
-    transition-duration: .2s;
-    transition-timing-function: ease;
-    transition-delay: .7s;
-}
-
-.slick-slide.slick-active .thumb_1 {
-    width: 316px;
-    opacity: .6;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_title {
-    padding: 24px 0 8px 0;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_title h3 {
-    font-size: 20px;
-    line-height: 23px;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_price p {
-    font-size: 20px;
-    line-height: 23px;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_text p {
-    font-size: 14px;
-    line-height: 16px;
-}
-.slick-slide.slick-active .thumb_1 .grey_pill {
-    font-size: 20px;
-    line-height: 23px;
-    min-height: 40px;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_text {
-    padding: 21px 0 33px 0;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_icon {
-    margin: 9px 0 0 0;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_footer {
-    padding-bottom: 27px;
-}
-.slick-slide.slick-active .thumb_1 .thumb_1_icon {
-    height: 138px;
-}
-
-.slider {
-    max-width: 1590px;
-    margin: 0 auto;
-}
-
-/*.slider .slide {
-    transform: scale(.5);
-    -webkit-transition-property: transform;
-    -webkit-transition-duration: .7s;
-    -webkit-transition-timing-function: ease;
-
-    -moz-transition-property: transform;
-    -moz-transition-duration: .7s;
-    -moz-transition-timing-function: ease;
-
-    -ms-transition-property: transform;
-    -ms-transition-duration: .7s;
-    -ms-transition-timing-function: ease;
-
-    -o-transition-property: transform;
-    -o-transition-duration: .7s;
-    -o-transition-timing-function: ease;
-
-    transition-property: transform;
-    transition-duration: .7s;
-    transition-timing-function: ease;s
-}
-
-.slick-slide.slick-active .slide {
-    transform: scale(.7);
-}
-
-.slick-slide.slick-current .slide {
-    transform: scale(1);
-}*/
 
 
 
