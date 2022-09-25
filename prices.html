@@ -116,15 +116,34 @@
 				<form>
 					<div class="search_form">
 						<div>
-							<h2>Виды работ</h2>
+							<h2>Виды услуг:</h2>
 						</div>
 						<div>
-							<div class="input_wrapp">
-								<input type="text" name="price_search" placeholder="Поиск по виду  работы ..." />
+							<div class="search_input_flex">
+								<div class="input_wrapp">
+									<input type="text" name="price_search" placeholder="Поиск по виду  работы ..." />
+								</div>
+								<div class="search_btns_wrapp">
+									<div>
+										<button type="submit" class="search_pill">
+											<svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M16.375 0.625L0.625 16.375" stroke="#123351" stroke-linecap="round" stroke-linejoin="round"/>
+												<path d="M0.625 0.625L16.375 16.375" stroke="#123351" stroke-linecap="round" stroke-linejoin="round"/>
+											</svg>
+										</button>
+									</div>
+									<div>
+										<button type="submit" class="search_pill">
+											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<g opacity="0.5">
+													<path d="M14.6667 25.3333C20.5577 25.3333 25.3333 20.5577 25.3333 14.6667C25.3333 8.77563 20.5577 4 14.6667 4C8.77563 4 4 8.77563 4 14.6667C4 20.5577 8.77563 25.3333 14.6667 25.3333Z" stroke="#123351" stroke-linecap="round" stroke-linejoin="round"/>
+													<path d="M28 27.9992L22.2 22.1992" stroke="#123351" stroke-linecap="round" stroke-linejoin="round"/>
+												</g>
+											</svg>
+										</button>
+									</div>
+								</div>
 							</div>
-						</div>
-						<div>
-							<button type="submit" class="orange_pill">Искать</button>
 						</div>
 					</div>
 					<div class="price_table_scroll scroll_x">
@@ -155,7 +174,9 @@
 										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
 								<a href="#" class="price_table_row">
@@ -172,7 +193,9 @@
 										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
 								<a href="#" class="price_table_row">
@@ -184,11 +207,14 @@
 									</div>
 									<div>
 										<div>
+											<p class="old_price">от 120 руб</p>
 											<p class="price">от 100 руб</p>
 										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
 								<a href="#" class="price_table_row">
@@ -199,12 +225,11 @@
 										<p>от 1 дня</p>
 									</div>
 									<div>
-										<div>
-											<p class="price">от 100 руб</p>
-										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
 								<a href="#" class="price_table_row">
@@ -215,12 +240,11 @@
 										<p>от 1 дня</p>
 									</div>
 									<div>
-										<div>
-											<p class="price">от 100 руб</p>
-										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
 								<a href="#" class="price_table_row">
@@ -231,12 +255,11 @@
 										<p>от 1 дня</p>
 									</div>
 									<div>
-										<div>
-											<p class="price">от 100 руб</p>
-										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
 								<a href="#" class="price_table_row">
@@ -247,18 +270,111 @@
 										<p>от 1 дня</p>
 									</div>
 									<div>
-										<div>
-											<p class="price">от 100 руб</p>
-										</div>
 									</div>
 									<div>
-										<div class="transparent_pill">Детальнее</div>
+										<div>
+											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+										</div>
 									</div>
 								</a>
+
 							</div>
 						</div>
 					</div>
 				</form>
+			</div>
+			<div class="promo_form promo_form_2">
+				<div class="inner_wrapp">
+					<form>
+						<div class="promo_form_title">
+							<h3>Узнать стоимость</h3>
+						</div>
+						<div class="input_two_cols">
+							<div>
+								<h3>Вид работы:</h3>
+							</div>
+							<div>
+								<div class="custom_select">
+									<input type="hidden" />
+									<div class="custom_select_title">
+										<p class="p_val">Выберите вид работы</p>
+									</div>
+									<div class="custom_dr">
+										<ul class="custom_select_list checkout_list">
+											<li data-option-val = "Опция 1">Опция 1</li>
+											<li data-option-val = "Опция 2">Опция 2</li>
+											<li data-option-val = "Опция 3">Опция 3</li>
+											<li data-option-val = "Опция 4">Опция 4</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input_two_cols">
+							<div>
+								<h3>Предмет:</h3>
+							</div>
+							<div>
+								<div class="input_wrapp">
+									<input type="text" name="#" placeholder="Укажите предмет" />
+								</div>
+							</div>
+						</div>
+						<div class="input_two_cols">
+							<div>
+								<h3>Тема работы:</h3>
+							</div>
+							<div>
+								<div class="input_wrapp">
+									<input type="text" name="#" placeholder="Укажите тему работы" />
+								</div>
+							</div>
+						</div>
+						<div class="input_two_cols">
+							<div>
+								<h3>Количество страниц:</h3>
+							</div>
+							<div>
+								<div class="input_inlines">
+									<div>
+										<div class="input_wrapp">
+											<input type="number" name="#" placeholder="От" />
+										</div>
+									</div>
+									<div>
+										<div class="input_wrapp">
+											<input type="number" name="#" placeholder="До" />
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="input_two_cols">
+							<div>
+								<h3>Срок сдачи:</h3>
+							</div>
+							<div>
+								<div class="input_inlines">
+									<div>
+										<div class="input_date_wrapp">
+											<input type="text" class="datepicker-here" data-position="right top" id="data" />
+											<i class="calendar"></i>
+										</div>
+									</div>
+									<div>
+										<div class="input_date_wrapp clock_wrapp">
+											<input type="text" class="datepicker-here" data-position="right top" data-timepicker="true" id="time" />
+											<i class="clock"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="submit_wrapp">
+							<button type="submit" class="orange_pill">Узнать цену</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
 	</section>

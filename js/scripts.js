@@ -33,11 +33,11 @@ $(document).ready(function() {
         $(".slider").not(".slick-initialized").slick({
             dots: true,
             arrows: true,
-            autoplay: true,
+            // autoplay: true,
             autoplaySpeed: 4000,
             speed: 2000,
             variableWidth: true,
-            slidesToShow: 3,
+            slidesToShow: 5,
             slidesToScroll: 1,
             centerMode: true,
             appendDots: $(".slider_dots"),
@@ -165,29 +165,31 @@ $(document).ready(function() {
     if( $(".inner_slider").length > 0 ) {
       $(".inner_slider").not(".slick-initialized").slick({
           dots: true,
-          arrows: false,
-          // autoplay: true,
-          // autoplaySpeed: 4000,
-          speed: 1200,
-          slidesToShow: 1,
-          slidesToScroll: 1
-          // fade: true
-      });
-    }
-
-    if( $(".contacts_slider").length > 0 ) {
-      $(".contacts_slider").not(".slick-initialized").slick({
-          dots: false,
           arrows: true,
           // autoplay: true,
           // autoplaySpeed: 4000,
           speed: 1200,
           slidesToShow: 1,
           slidesToScroll: 1,
-          fade: true,
-          appendArrows: $(".contacts_slider_arrow")
+          // fade: true,
+          appendArrows: $(".contacts_slider_arrow"),
+          appendDots: $(".contacts_slider_dots")
       });
     }
+
+    // if( $(".contacts_slider").length > 0 ) {
+    //   $(".contacts_slider").not(".slick-initialized").slick({
+    //       dots: false,
+    //       arrows: true,
+    //       // autoplay: true,
+    //       // autoplaySpeed: 4000,
+    //       speed: 1200,
+    //       slidesToShow: 1,
+    //       slidesToScroll: 1,
+    //       fade: true,
+    //       appendArrows: $(".contacts_slider_arrow")
+    //   });
+    // }
 
     // --------------
 
