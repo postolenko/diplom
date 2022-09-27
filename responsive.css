@@ -3329,7 +3329,7 @@ div.svg div.rateit-hover {
 }
 
 .thunb_2:before {
-    width: calc(100% - 6px);
+    width: calc(100% - 7px);
     height: calc(100% - 6px);
     border: 1px solid #367FD3;
     top: 2px;
