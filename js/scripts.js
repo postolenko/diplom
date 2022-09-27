@@ -43,22 +43,22 @@ $(document).ready(function() {
             appendDots: $(".slider_dots"),
             appendArrows: $(".slider_arrows"),
             // fade: true,
-            // responsive: [
-            //     {
-            //       breakpoint: 900,
-            //       settings: {
-            //         slidesToShow: 2,
-            //         slidesToScroll: 2
-            //       }
-            //     },
-            //     {
-            //       breakpoint: 540,
-            //       settings: {
-            //         slidesToShow: 1,
-            //         slidesToScroll: 1
-            //       }
-            //     }
-            //   ]
+            responsive: [
+                {
+                  breakpoint: 1125,
+                  settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1
+                  }
+                },
+                // {
+                //   breakpoint: 540,
+                //   settings: {
+                //     slidesToShow: 1,
+                //     slidesToScroll: 1
+                //   }
+                // }
+              ]
         });
     }
 
