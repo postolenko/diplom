@@ -4104,6 +4104,14 @@ h2 {
     padding: 10px 7px;
 }
 
+.drop_area_inner {
+    min-height: 64px;
+}
+
+.drop_area {
+    padding: 0 10px 0 0;
+}
+
 .order_steps {
     position: relative;
 }
