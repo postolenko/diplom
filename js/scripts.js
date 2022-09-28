@@ -297,4 +297,12 @@ $(document).ready(function() {
       parent.remove();
     });
 
+    // -----------------
+
+    $(".step_btn").on("click", function(e) {
+      parent = $(this).closest(".steps_btns");
+      parent.find(".step_btn").removeClass("active");
+      $(this).addClass("active");
+    });
+
 });

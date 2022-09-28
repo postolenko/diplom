@@ -304,6 +304,10 @@ textarea:focus {
     display: none !important;
 }
 
+.visible_480 {
+    display: none;
+}
+
 /*-- Slick --*/
 
 .slick-arrow {
@@ -1878,7 +1882,6 @@ div.svg div.rateit-preset {
 /*-- Section 5 - Main Page --*/
 
 .sect_5_mp {
-    /*background: #F1F3F6;*/
     background: #f1f3f65e;
     padding: 30px 0 87px 0;
 }
