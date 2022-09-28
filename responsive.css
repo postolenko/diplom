@@ -711,12 +711,40 @@ h2 {
 
 /*-- Section 1 - FAQ --*/
 
-.promo_faq {
+/*.promo_faq {
     display: none;
+}*/
+
+/*.h1_wrapp_2_2 {
+    max-width: 100%;
+}*/
+
+.sect_1_faq {
+    padding: 1px 0 26px 0;
+}
+
+.h1_wrapp_2 h1 {
+    font-size: 40px;
+    line-height: 50px;
 }
 
 .h1_wrapp_2_2 {
-    max-width: 100%;
+    padding: 5px 0 15px 0;
+    max-width: calc(100% - 320px);
+}
+
+.h1_wrapp_2_2 p {
+    font-size: 20px;
+}
+
+.h1_wrapp_2_2 p a {
+    font-size: 24px;
+}
+
+.promo_faq {
+    bottom: -26px;
+    right: 44px;
+    max-width: 276px;
 }
 
 /*-- /Section 1 - FAQ --*/
@@ -729,7 +757,11 @@ h2 {
 }
 
 .tab_link {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+.tabs {
+    padding: 18px 0 27px 0;
 }
 
 /*-- /Section 2 - FAQ --*/
@@ -1035,7 +1067,7 @@ h2 {
 }
 
 .wrapper {
-    padding-top: 62px;
+    padding-top: 92px;
 }
 
 h1 {
@@ -1163,6 +1195,10 @@ h2 {
 
 .promo_sect {
     background: none;
+}
+
+.promo_templ {
+    padding: 0;
 }
 
 .promo_templ > .left {
@@ -1427,33 +1463,45 @@ h2 {
 
 /*-- Section 1 - Order --*/
 
+.order_steps_wrapp {
+    margin: 6px auto;
+}
+
 .order_steps {
-    margin: 0 -20px;
+    margin: 0 -13px;
 }
 
 .step_order {
-    min-height: 170px;
-    width: calc(25% - 40px);
-    margin: 20px;
-    padding: 15px 10px 15px 10px;
+    min-height: 220px;
+    width: calc(25% - 26px);
+    margin: 13px;
+    padding: 33px 10px 15px 10px;
 }
 
 .step_num {
-    font-size: 57px;
-    line-height: 70px;
+    font-size: 96px;
+    line-height: 97px;
 }
 
 .step_order p {
-    font-size: 14px;
-    line-height: 19px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .step_order:after {
-    width: 69px;
-    height: 102px;
-    top: 23px;
-    right: -48px;
+    width: 82px;
+    height: 127px;
+    top: 10px;
+    right: -47px;
     z-index: 2;
+}
+
+.order_form {
+    margin: 12px auto 26px auto;
+}
+
+.order_form:before {
+    display: none;
 }
 
 /*-- /Section 1 - Order --*/
@@ -1510,7 +1558,7 @@ h2 {
 @media only screen and (max-width: 1010px) {
 
 .wrapper {
-    padding-top: 66px;
+    padding-top: 70px;
 }
 
 /*-- Header --*/
@@ -1552,6 +1600,14 @@ h2 {
 }
 
 /*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - FAQ --*/
+
+.tab_list li {
+    padding: 5px 15px;
+}
+
+/*-- /Section 2 - FAQ --*/
 
 }
 
@@ -1675,8 +1731,27 @@ h2 {
 
 /*-- Section 1 - FAQ --*/
 
-.sect_1_faq {
+/*.sect_1_faq {
     background-image: none;
+}*/
+
+.sect_1_faq .breadcrumbs {
+    margin: 10px 0 7px 0;
+}
+
+.h1_wrapp_2_2 {
+    /*padding: 5px 0 15px 0;*/
+    max-width: 100%;
+}
+
+.h1_wrapp_2_2_inner {
+    width: calc(100% - 150px);
+}
+
+.promo_faq {
+    bottom: -26px;
+    right: 5px;
+    max-width: 135px;
 }
 
 /*-- /Section 1 - FAQ --*/
@@ -2341,8 +2416,9 @@ h1 {
 /*-- Section 1 - FAQ --*/
 
 .h1_wrapp_2 h1 {
-    font-size: 29px;
-    line-height: 38px;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
 }
 
 .h1_wrapp_2_2 {
@@ -2351,10 +2427,11 @@ h1 {
 
 .h1_wrapp_2_2 p {
     font-size: 16px;
+    line-height: 20px;
 }
 
 .h1_wrapp_2_2 p a {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 /*-- /Section 1 - FAQ --*/
@@ -3010,7 +3087,7 @@ h1 {
 @media only screen and (max-width: 600px) {
 
 .wrapper {
-    padding-top: 53px;
+    padding-top: 67px;
 }
 
 h1 {
@@ -3374,6 +3451,58 @@ div.svg div.rateit-hover {
 
 /*-- /Section 4 - Main Page --*/
 
+/*-- Section 1 - FAQ --*/
+
+.h1_wrapp_2 p {
+    font-size: 16px;
+    line-height: 23px;
+}
+
+/*-- /Section 1 - FAQ --*/
+
+/*-- Section 2 - FAQ --*/
+
+.tab_list_wrapp {
+    padding: 10px 0 10px 0;
+}
+
+.tab_list li {
+    padding: 3px 10px;
+}
+
+.tab_link {
+    font-size: 16px;
+}
+
+.faq_item_title {
+    padding: 15px 0 3px 0;
+}
+
+.faq_item_title h3 {
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.faq_dr .dropdown_item_title {
+    padding: 10px 40px 7px 0;
+    min-height: 55px;
+}
+
+.faq_dr .dropdown_item_title:after {
+    top: calc(50% - 2px);
+}
+
+.faq_dr .dropdown_item_content {
+    padding: 13px 0 4px 0;
+}
+
+.faq_dr .dropdown_item_content p {
+    font-size: 13px;
+    line-height: 17px;
+}
+
+/*-- /Section 2 - FAQ --*/
+
 /*-- Section 4 - About --*/
 
 .line_article .inner {
@@ -3497,30 +3626,6 @@ div.svg div.rateit-hover {
 /*-- /Section 1 - Order --*/
 
 /*-- Footer --*/
-
-/*.copyright {
-    padding: 5px 0;
-}
-
-.seo_wrapp > div {
-    padding: 5px 0;
-}
-
-.seo_list {
-    padding: 3px 0;
-}
-
-.footer_two_cols_2 {
-    padding: 10px 0 10px 0;
-}
-
-.links_inlines > div {
-    padding: 5px 0;
-}*/
-
-.footer_two_cols {
-
-}
 
 .footer_two_cols > div:nth-child(1) {
     width: 100%;
@@ -4015,6 +4120,18 @@ h2 {
 }
 
 /*-- /Section 5 - Main Page --*/
+
+/*-- Section 1 - FAQ --*/
+
+.h1_wrapp_2_2_inner {
+    width: 100%;
+}
+
+.promo_faq {
+    display: none;
+}
+
+/*-- /Section 1 - FAQ --*/
 
 /*-- Footer --*/
 
