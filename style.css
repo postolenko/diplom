@@ -2716,6 +2716,10 @@ div.svg div.rateit-preset {
     padding-right: 40px;
 }
 
+.resp_404_title {
+    display: none;
+}
+
 .breadcrumbs.dark {
     margin: 3px 0 10px 0;
 }

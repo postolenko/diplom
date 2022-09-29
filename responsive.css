@@ -1443,17 +1443,22 @@ h2 {
 
 /*-- Section 1 - 404 --*/
 
-.templ_404 h1 {
-    font-size: 31px;
+.templ_404 > .left_col {
+    padding-right: 25px;
 }
 
-.templ_404 p {
-    font-size: 16px;
+.templ_404 h1 {
+    padding-bottom: 15px;
+    font-size: 40px;
 }
 
 .templ_404 p {
     padding: 5px 0;
-    font-size: 16px;
+    font-size: 24px;
+}
+
+.templ_404 .orange_pill {
+    margin: 15px 0;
 }
 
 /*-- /Section 1 - 404 --*/
@@ -2709,13 +2714,61 @@ h1 {
 
 /*-- Section 1 - 404 --*/
 
+.templ_404 {
+    display: flex;
+    display: -webkit-flex;
+    padding: 18px 0 18px 0;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
 .templ_404 > .left_col {
-    display: none;
+    width: 100%;
+    padding: 15px 0 0 0;
+    order: 2;
 }
 
 .templ_404 > .right_col {
     width: 100%;
+    order: 1;
+    text-align: center;
 }
+
+.templ_404 .right_col > h1 {
+    display: none;
+}
+
+.resp_404_title {
+    display: block;
+}
+
+.resp_404_title h1 {
+    padding: 0;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    color: #69AEFF;
+}
+
+.resp_404_title h2 {
+    padding: 0;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #69AEFF;
+}
+
+.templ_404 p {
+    padding: 10px 0;
+    font-size: 16px;
+}
+
+.templ_404 .orange_pill {
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 
 /*-- /Section 1 - 404 --*/
 
