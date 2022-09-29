@@ -2730,6 +2730,8 @@ h1 {
 
 .templ_404 > .right_col {
     width: 100%;
+    max-width: 363px;
+    margin: 0 auto;
     order: 1;
     text-align: center;
 }
@@ -2740,6 +2742,8 @@ h1 {
 
 .resp_404_title {
     display: block;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 .resp_404_title h1 {
