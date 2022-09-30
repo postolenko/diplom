@@ -3989,6 +3989,15 @@ div.svg div.rateit-hover {
     padding: 8px 0 0 115px;
 }
 
+.search_btns_wrapp {
+    padding: 6px 8px 0 0;
+}
+
+.search_btns_wrapp .search_pill {
+    width: 24px;
+    height: 24px;
+}
+
 /*-- /Section 2 - Prices --*/
 
 /*-- Footer --*/
