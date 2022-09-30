@@ -1087,37 +1087,50 @@ h2 {
 
 /*-- Section 2 - Prices --*/
 
+.h1_wrapp_5 {
+    max-width: calc(100% - 460px);
+}
+
+.price_promo_shape {
+    width: 480px;
+    bottom: -45px;
+}
+
+/*-- /Section 2 - Prices --*/
+
+/*-- Section 2 - Prices --*/
+
+.search_form {
+    padding: 0 0 13px 0;
+}
+
 .price_table_wrapp {
-    padding: 12px 10px 29px 10px;
+    margin: 7px 0;
 }
 
 .price_table_row > div:nth-child(1) {
-    width: 35%;
+    width: 36%;
 }
 
 .price_table_row > div:nth-child(2) {
-    width: 22%;
+    width: 13%;
 }
 
 .price_table_row > div:nth-child(3) {
     width: 19%;
-    padding: 5px 10px;
+    padding: 5px 10px 5px 10px;
 }
 
-.price_table_row .transparent_pill {
-    font-size: 17px;
+.price_table_row > div:nth-child(4) {
+    width: 32%;
 }
 
-.price_table_row > div:nth-child(1) p {
-    font-size: 18px;
+.price_table_row > div:nth-child(4) > div {
+    text-align: right;
 }
 
-.price_table_row > div:nth-child(2) p {
-    font-size: 18px;
-}
-
-.price {
-    font-size: 17px;
+.price_table_row .gradient_pill {
+    min-width: 250px;
 }
 
 /*-- /Section 2 - Prices --*/
@@ -1584,12 +1597,19 @@ h2 {
 
 /*-- Section 1 - Prices --*/
 
-.price_promo_shape {
-    width: 400px;
-    bottom: -38px;
+.h1_wrapp_5 {
+    text-align: left;
 }
 
 /*-- /Section 1 - Prices --*/
+
+/*-- Section 2 - Prices --*/
+
+.prices_wrapp {
+    margin: 65px auto 26px auto;
+}
+
+/*-- /Section 2 - Prices --*/
 
 /*-- Section 1 - Order --*/
 
@@ -1738,6 +1758,14 @@ h2 {
 }
 
 /*-- /Section 2 - FAQ --*/
+
+/*-- Section 2 - Prices --*/
+
+.price_table_row .gradient_pill {
+    min-width: 100%;
+}
+
+/*-- /Section 2 - Prices --*/
 
 }
 
@@ -2226,31 +2254,73 @@ h2 {
 
 /*-- /Section 6 - Service --*/
 
+/*-- Section 1 - Prices --*/
+
+.h1_wrapp_5 {
+    max-width: calc(100% - 200px);
+}
+
+.h1_wrapp_5 h1 {
+    padding: 5px 0;
+    font-size: 24px;
+}
+
+.h1_wrapp_5 > p {
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+.items_6 {
+    padding: 2px 0 44px 0;
+}
+
+.item_6 > div:nth-child(1) {
+    width: 32px;
+}
+
+.item_6 > div:nth-child(2) {
+    width: calc(100% - 32px);
+    padding-left: 10px;
+}
+
+.item_6 p {
+    font-size: 16px;
+    line-height: 40px;
+}
+
+.price_promo_shape {
+    width: 210px;
+    bottom: -20px;
+}
+
+/*-- /Section 1 - Prices --*/
+
 /*-- Section 2 - Prices --*/
 
 .search_form h2 {
-    font-size: 31px;
-    line-height: 43px;
+    font-size: 26px;
 }
 
-.prices_wrapp {
-    margin: 45px auto 50px auto;
+.price_table_row > div:nth-child(1) {
+    width: calc(80% - 140px);
 }
 
-.search_form {
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
+.price_table_row > div:nth-child(2) {
+    width: 20%;
 }
 
-.search_form > div:nth-child(2) {
-    width: calc(100% - 260px);
-    padding: 5px 5px 5px 0;
+.price_table_row > div:nth-child(3) {
+    width: 140px;
+    justify-content: flex-start;
+    -webkit-justify-content: flex-start;
 }
 
-.search_form > div:nth-child(1) {
-    width: 100%;
-    padding: 5px 0;
-    text-align: center;
+.price_table_row > div:nth-child(4) {
+    display: none;
+}
+
+.promo_form_2 {
+    margin: 25px auto 15px auto;
 }
 
 /*-- /Section 2 - Prices --*/
@@ -2780,7 +2850,6 @@ h1 {
     padding-right: 30px;
 }
 
-
 /*-- /Section 1 - 404 --*/
 
 /*-- Section 1 - About --*/
@@ -3007,48 +3076,11 @@ h1 {
 
 /*-- Section 1 - Prices --*/
 
-.sect_1_price {
-    background-image: none;
-}
-
-.h1_wrapp_5 h1 {
-    font-size: 29px;
-}
-
-.price_promo_shape {
-    display: none;
-}
-
-.item_6 p {
-    font-size: 16px;
+.h1_wrapp_5 {
+    max-width: 100%;
 }
 
 /*-- /Section 1 - Prices --*/
-
-/*-- Section 2 - Prices --*/
-
-.search_form > div:nth-child(2) {
-    width: calc(100% - 90px);
-}
-
-.search_form > div:nth-child(3) {
-    width: 90px;
-}
-
-.search_form > div:nth-child(3) .orange_pill {
-    min-width: 100%;
-}
-
-.price_table_row > div:nth-child(2) {
-    width: 20%;
-}
-
-.price_table_row > div:nth-child(3) {
-    width: 21%;
-    padding: 5px 10px;
-}
-
-/*-- /Section 2 - Prices --*/
 
 /*-- Section 1 - Order --*/
 
@@ -3308,11 +3340,6 @@ h1 {
 /*-- .Section 2 - Author Page --*/
 
 /*-- Section 2 - Prices --*/
-
-.price_table_wrapp {
-    min-width: 500px;
-    margin: 10px 0;
-}
 
 .price_table_row > div {
     min-height: 61px;
@@ -3883,6 +3910,87 @@ div.svg div.rateit-hover {
 
 /*-- /Section 1 - Order --*/
 
+/*-- Section 2 - Prices --*/
+
+.prices_wrapp {
+    margin: 22px auto 26px auto;
+    padding: 4px 6px 3px 6px;
+}
+
+.search_form {
+    padding: 0 0 4px 0;
+}
+
+.search_form > div:nth-child(1) {
+    width: 125px;
+    padding: 3px 5px 2px 12px;
+}
+
+.search_form > div:nth-child(2) {
+    width: calc(100% - 125px);
+}
+
+.search_form h2 {
+    font-size: 16px;
+}
+
+.search_form .input_wrapp input {
+    height: 35px;
+    font-size: 13px;
+    line-height: 33px;
+}
+
+.search_btns_wrapp {
+    padding: 1px 8px 0 0;
+}
+
+.price_table h3 {
+    font-size: 12px;
+}
+
+.price_table_row > div:nth-child(1) {
+    padding: 0 10px;
+}
+
+.price_table_row > div:nth-child(2) {
+    padding: 0 10px;
+}
+
+.price_table_row > div:nth-child(3) {
+    padding: 0 10px 0 10px;
+}
+
+.price_table_row > div:nth-child(1) p {
+    font-size: 12px;
+}
+
+.price_table_row > div:nth-child(2) p {
+    font-size: 12px;
+}
+
+.old_price {
+    line-height: 110%;
+}
+
+.price {
+    font-size: 12px;
+    line-height: 110%;
+}
+
+.price_table_row > div {
+    min-height: 35px;
+}
+
+.price_table_row.table_header > div {
+    min-height: 19px;
+}
+
+.promo_form_2 .submit_wrapp {
+    padding: 8px 0 0 115px;
+}
+
+/*-- /Section 2 - Prices --*/
+
 /*-- Footer --*/
 
 .footer_two_cols > div:nth-child(1) {
@@ -4406,6 +4514,29 @@ h2 {
 
 }
 
+@media only screen and (max-width: 450px) {
+
+/*-- Section 2 - Prices --*/
+
+.search_form {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.search_form > div:nth-child(1) {
+    width: 100%;
+    padding: 3px 0 0 0;
+}
+
+.search_form > div:nth-child(2) {
+    width: 100%;
+    padding: 0 0 3px 0;
+}
+
+/*-- /Section 2 - Prices --*/
+
+}
+
 @media only screen and (max-width: 400px) {
 
 /*-- Header --*/
@@ -4576,6 +4707,42 @@ h2 {
 }
 
 /*-- /Section 3 - Contacts --*/
+
+/*-- Section 2 - Prices --*/
+
+.price_table_row > div:nth-child(1) {
+    width: calc(72% - 95px);
+}
+
+.price_table_row > div:nth-child(2) {
+    width: 28%;
+}
+
+.price_table_row > div:nth-child(3) {
+    width: 95px;
+}
+
+.price_table_row > div:nth-child(1) p {
+    font-size: 11px;
+}
+
+.price_table_row > div:nth-child(2) p {
+    font-size: 11px;
+}
+
+.old_price {
+    font-size: 11px;
+}
+
+.price {
+    font-size: 11px;
+}
+
+.promo_form_2 .submit_wrapp {
+    padding: 10px 0 0 0;
+}
+
+/*-- /Section 2 - Prices --*/
 
 /*-- Footer --*/
 
