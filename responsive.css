@@ -1928,7 +1928,7 @@ h2 {
 }
 
 .contacts_thumb_inner {
-    padding: 16px 30px 24px 38px;
+    padding: 16px 30px 22px 38px;
 }
 
 .contacts_thumb {
@@ -1938,6 +1938,13 @@ h2 {
 .contact_item_2 p {
     font-size: 16px;
     line-height: 161%;
+}
+
+.contacts_thumb:before {
+    width: calc(100% - 12px);
+    height: 100%;
+    top: -12px;
+    left: 22px;
 }
 
 /*-- /Section 2 - Contacts --*/
@@ -1958,7 +1965,7 @@ h2 {
 }
 
 .blue_box {
-    padding: 10px 30px 7px 30px;
+    padding: 10px 33px 9px 33px;
 }
 
 .blue_box p {
@@ -3876,14 +3883,6 @@ div.svg div.rateit-hover {
 
 /*-- /Section 1 - Order --*/
 
-/*-- Section 2 - Contacts --*/
-
-.contacts_thumb_inner {
-    padding: 10px 10px 10px 10px;
-}
-
-/*-- /Section 2 - Contacts --*/
-
 /*-- Footer --*/
 
 .footer_two_cols > div:nth-child(1) {
@@ -4070,11 +4069,15 @@ h2 {
     height: 190px;
 }
 
+.inner_slider .slide img {
+    max-width: 100%;
+}
+
 .inner_slider {
     height: 190px;
 }
 
-.inner_slider .slick-arrow {
+.contacts_slider_arrow .slick-arrow {
     background-size: 36%;
 }
 
