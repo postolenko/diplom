@@ -2951,7 +2951,9 @@ div.svg div.rateit-preset {
     height: 350px;
     position: relative;
     overflow: hidden;
-    background: #E8F1FF;
+    background-color: #E8F1FF;
+    background-size: cover;
+    background-position: center;
     border-radius: 5px;
     -webkit-border-radius: 5px;
 }
