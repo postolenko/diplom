@@ -201,14 +201,6 @@ h1 {
 
 /*-- /Section 1 - 404 --*/
 
-/*-- Section 1 - About --*/
-
-.h1_wrapp_about p {
-    font-size: 19px;
-}
-
-/*-- /Section 1 - About --*/
-
 /*-- Section 1 - Prices --*/
 
 .price_promo_shape {
@@ -872,12 +864,11 @@ h2 {
 
 .h1_wrapp_about {
     max-width: 100%;
-    padding: 36px 510px 37px 0;
+    padding: 36px 400px 37px 0;
 }
 
-.h1_wrapp_about h1 {
-    font-size: 32px;
-    line-height: 42px;
+.about_promo_shape {
+    max-width: 420px;
 }
 
 /*-- /Section 1 - About --*/
@@ -893,44 +884,58 @@ h2 {
 }
 
 .steps_templ {
-    max-width: 930px;
+    max-width: 909px;
     margin: 52px auto;
 }
 
-.step_item_2_shape {
-    left: -105px;
+.step_item_2 {
+    margin: 1px 0;
+}
+
+.step_figure {
+    padding: 0 18px 12px 0;
 }
 
 .step_figure h3 {
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .step_figure p {
-    font-size: 15px;
+    font-size: 13px;
 }
 
 .step_figure_1 {
-    max-width: 407px;
+    max-width: 437px;
+    min-height: 110px;
 }
 
 .step_figure_2 {
-    max-width: 424px;
+    max-width: 480px;
+    min-height: 111px;
 }
 
 .step_figure_3 {
-    max-width: 464px;
+    max-width: 500px;
+    min-height: 110px;
 }
 
 .step_figure_4 {
-    max-width: 514px;
+    max-width: 512px;
+    min-height: 110px
 }
 
 .step_figure_5 {
     max-width: 568px;
+    min-height: 109px;
+}
+
+.step_item_2_shape {
+    left: -55px;
+    height: 100px;
 }
 
 .step_percent > svg {
-    height: 78px;
+    height: 100px;
 }
 
 .step_percent p {
@@ -942,6 +947,7 @@ h2 {
 .step_item_2 > div:nth-child(2) {
     width: 170px;
     left: -106px;
+    top: -11px;
 }
 
 /*-- /Section 3 - About --*/
@@ -1479,16 +1485,18 @@ h2 {
 /*-- Section 1 - About --*/
 
 .h1_wrapp_about {
-    padding: 36px 0;
-}
-
-.about_promo_shape {
-    display: none;
+    padding: 10px 400px 37px 0;
+    text-align: left;
 }
 
 /*-- /Section 1 - About --*/
 
 /*-- Section 3 - About --*/
+
+.steps_templ {
+    max-width: 861px;
+    margin: 24px auto;
+}
 
 .step_item_2 > div:nth-child(2) {
     left: -61px;
@@ -1498,19 +1506,92 @@ h2 {
 
 /*-- Section 4 - About --*/
 
+.line_article {
+    padding: 25px 0 22px 0;
+}
+
 .line_article .inner {
-    width: calc(100% - 300px);
+    width: calc(100% - 350px);
 }
 
 .line_article_shape {
-    max-width: 300px;
+    max-width: 350px;
+    bottom: auto;
+    top: -63px;
 }
 
 .line_article p {
-    font-size: 16px;
+    font-size: 24px;
 }
 
 /*-- /Section 4 - About --*/
+
+/*-- Section 5 - About --*/
+
+.sect_5_about .h2_wrapp {
+    padding: 15px 0;
+}
+
+.two_cols_3 {
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    max-width: 834px;
+    margin: 6px auto 22px auto;
+}
+
+.two_cols_3 > .left_col {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.two_cols_3 > .right_col {
+    width: 100%;
+    padding: 5px 0 10px 0;
+}
+
+.blue_box_2_wrapp {
+    max-width: 100%;
+    padding: 0;
+}
+
+.thumbnails_7 {
+    margin: 7px -2px;
+}
+
+.thumb_7 {
+    min-height: 130px;
+}
+
+.thumb_7 h3 {
+    font-size: 48px;
+}
+
+.thumb_7 p {
+    font-size: 20px;
+}
+
+.item_8 > div:nth-child(2):before {
+    height: 83px;
+    left: 109px;
+}
+
+.item_8 > div:nth-child(2) > div {
+    max-width: 700px;
+}
+
+.item_8 > div:nth-child(2):before {
+    width: calc(100% - 109px);
+}
+
+.item_8 h3 {
+    font-size: 24px;
+}
+
+.item_8 p {
+    font-size: 20px;
+}
+
+/*-- /Section 5 - About --*/
 
 /*-- Section 1 - Author Page --*/
 
@@ -1783,6 +1864,11 @@ h2 {
 
 @media only screen and (max-width: 900px) {
 
+h2 {
+    font-size: 32px;
+    line-height: 41px;
+}
+
 .visible_900 {
     display: block !important;
 }
@@ -2016,6 +2102,28 @@ h2 {
 
 /*-- /Section 3 - Contacts --*/
 
+/*-- Section 1 - About --*/
+
+.h1_wrapp_about {
+    padding: 10px 0 150px 0;
+    text-align: center;
+}
+
+.about_promo_shape {
+    max-width: 280px;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+.h1_wrapp_about h1 {
+    font-size: 40px;
+    line-height: 56px;
+}
+
+/*-- /Section 1 - About --*/
+
 /*-- Section 2 - About --*/
 
 .about_thumb {
@@ -2035,11 +2143,12 @@ h2 {
 
 /*-- Section 3 - About --*/
 
+.sect_3_about .h2_wrapp h2 {
+    padding: 6px 0;
+}
+
 .steps_templ {
-    display: flex;
-    display: -webkit-flex;
-    flex-direction: column-reverse;
-    -webkit-flex-direction: column-reverse;
+    max-width: 580px;
     margin: 10px auto;
 }
 
@@ -2048,39 +2157,56 @@ h2 {
 }
 
 .step_item_2 > div:nth-child(1) {
-    width: calc(100% - 111px);
-    order: 2;
+    width: calc(100% - 80px);
 }
 
 .step_item_2 > div:nth-child(2) {
-    width: 111px;
+    width: 80px;
     left: 0;
-    order: 1;
     text-align: left;
 }
 
-.step_percent {
-    min-height: 0;
+.step_item_2_shape {
+    left: -204px;
+    height: 100px;
+}
+
+.step_figure_1 {
+    max-width: 270px;
+}
+
+.step_figure_2 {
+    max-width: 299px;
+}
+
+.step_figure_3 {
+    max-width: 348px;
+}
+
+.step_figure_4 {
+    max-width: 386px;
+}
+
+.step_figure_5 {
+    max-width: 437px;
+}
+
+.step_figure h3 {
+    font-size: 16px;
+}
+
+.step_figure p {
+    font-size: 12px;
 }
 
 .step_percent > svg {
     display: none;
 }
 
-.step_item_2_shape {
-    display: none;
-}
-
-.step_figure {
-    max-width: 100% !important;
-    min-height: 0 !important;
-    padding: 9px 0;
-}
-
 .step_percent p {
-    padding-top: 9px;
-    color: #367FD3;
-    text-align: left;
+    padding-top: 36px;
+    font-size: 32px;
+    color: #154672;
 }
 
 .step_item_2.orange .step_percent p {
@@ -2091,44 +2217,7 @@ h2 {
     text-fill-color: transparent;
 }
 
-.sect_3_about .h2_wrapp h2 {
-    padding: 20px 0;
-}
-
 /*-- /Section 3 - About --*/
-
-/*-- Section 5 - About --*/
-
-.sect_5_about {
-    padding: 35px 0;
-}
-
-.two_cols_3 {
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-    margin: 6px 0;
-}
-
-.two_cols_3 > .left_col {
-    width: 100%;
-    padding: 10px 0;
-}
-
-.two_cols_3 > .right_col {
-    width: 100%;
-    padding: 10px 0;
-}
-
-.blue_box_2_wrapp {
-    max-width: 100%;
-    padding: 10px 0;
-}
-
-.thumbnails_7 {
-    margin: 10px -2px;
-}
-
-/*-- /Section 5 - About --*/
 
 /*-- Section 1 - Author Page --*/
 
@@ -2854,20 +2943,36 @@ h1 {
 
 /*-- Section 1 - About --*/
 
-.h1_wrapp_about {
-    padding: 20px 0;
-}
-
 .h1_wrapp_about h1 {
-    font-size: 29px;
-    line-height: 37px;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 38px;
 }
 
 .h1_wrapp_about p {
+    padding: 16px 0;
     font-size: 16px;
+    line-height: 20px;
 }
 
 /*-- /Section 1 - About --*/
+
+/*-- Section 4 - About --*/
+
+.line_article p {
+    font-size: 16px;
+}
+
+.line_article .inner {
+    width: calc(100% - 230px);
+}
+
+.line_article_shape {
+    max-width: 215px;
+    top: -46px;
+}
+
+/*-- /Section 4 - About --*/
 
 /*-- Section 1 - Author Page --*/
 
@@ -3269,12 +3374,12 @@ h1 {
 
 /*-- Section 2 - About --*/
 
-.about_thumbs_sect {
-    margin: 15px 0 20px 0;
+.sect_2_about {
+    background-color: transparent;
 }
 
-.about_thumbs_img {
-    display: none;
+.about_thumbs_sect {
+    margin: 37px 0 8px 0;
 }
 
 .about_thumbs {
@@ -3282,8 +3387,38 @@ h1 {
 }
 
 .about_thumb {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
     width: 100%;
-    margin: 10px 0;
+    margin: 5px 0;
+    padding: 17px 20px 16px 20px;
+    background-color: #EFF4FB;
+}
+
+.about_thumb > div:nth-child(1) {
+    display: block;
+    width: 80px;
+}
+
+.about_thumb > div:nth-child(1) img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+.about_thumb > div:nth-child(2) {
+    width: calc(100% - 80px);
+}
+
+.about_thumb p {
+    font-size: 15px;
+}
+
+.about_thumb p .blue {
+    font-size: 24px;
 }
 
 /*-- /Section 2 - About --*/
@@ -3796,19 +3931,48 @@ div.svg div.rateit-hover {
 
 /*-- /Section 2 - FAQ --*/
 
+/*-- Section 3 - About --*/
+
+.sect_3_about {
+    padding: 20px 0 22px 0;
+}
+
+/*-- /Section 3 - About --*/
+
 /*-- Section 4 - About --*/
+
+.line_article {
+    padding: 18px 0 1px 0;
+}
 
 .line_article .inner {
     width: 100%;
-    position: relative;
-    z-index: 2;
+    text-align: center;
 }
 
 .line_article_shape {
-    opacity: .5;
+    display: block;
+    width: 100%;
+    max-width: 353px;
+    margin: 22px auto 0 auto;
+    position: relative;
+    top: 0;
 }
 
 /*-- /Section 4 - About --*/
+
+/*-- Section 5 - About --*/
+
+.thumbnails_7 {
+    margin: 5px 0;
+}
+
+.thumb_7 {
+    margin: 2px 0;
+    width: 100%;
+}
+
+/*-- /Section 5 - About --*/
 
 /*-- Section 1 - Author Page --*/
 
@@ -3856,9 +4020,94 @@ div.svg div.rateit-hover {
 
 /*-- Section 3 - Author Page --*/
 
-.step_2_item p {
-    padding: 3px 0;
-    font-size: 18px;
+.steps_templ {
+    max-width: 360px;
+}
+
+.step_item_2_shape {
+    display: none;
+}
+
+.step_item_2_shape_resp {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.step_figure {
+    padding: 5px 18px 10px 0;
+}
+
+.step_figure_1 {
+    max-width: 280px;
+    min-height: 90px;
+}
+
+.step_figure_2 {
+    max-width: 276px;
+    min-height: 93px;
+}
+
+.step_figure_3 {
+    max-width: 285px;
+    min-height: 127px;
+}
+
+.step_figure_4 {
+    max-width: 279px;
+    min-height: 93px;
+}
+
+.step_figure_5 {
+    max-width: 267px;
+    min-height: 110px;
+}
+
+.step_figure h3 {
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.step_figure p {
+    font-size: 12px;
+    line-height: 100%;
+}
+
+.step_item_2_1 {
+    height: 93px;
+}
+
+.step_item_2_2 {
+    height: 93px;
+}
+
+.step_item_2_3 {
+    height: 129px;
+}
+
+.step_item_2_4 {
+    height: 93px;
+}
+
+.step_item_2_5 {
+    height: 105px;
+}
+
+.step_percent {
+    width: 100%;
+    min-height: auto;
+}
+
+.step_percent p {
+    padding-top: 0;
+}
+
+.step_item_2 > div:nth-child(2) {
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -4113,7 +4362,7 @@ h2 {
 .h2_wrapp p {
     padding: 0;
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 .thumbnails_2 {
@@ -4200,36 +4449,78 @@ h2 {
 
 /*-- /Section 3 - Contacts --*/
 
-/*-- Section 3 - About --*/
+/*-- Section 4 - About --*/
 
-.step_item_2 > div:nth-child(1) {
-    width: calc(100% - 80px);
+.sect_5_about {
+    padding: 23px 0;
 }
 
-.step_item_2 > div:nth-child(2) {
-    width: 80px;
+.blue_box_2 > .inner {
+    padding: 6px 25px 12px 25px;
 }
 
-.step_percent p {
-    font-size: 25px;
+.item_7 > div:nth-child(1) {
+    width: 65px;
 }
 
-.step_figure h3 {
-    font-size: 19px;
+.item_7 > div:nth-child(2) {
+    width: calc(100% - 65px);
 }
 
-/*-- /Section 3 - About --*/
+.item_7 > div:nth-child(1) > img {
+    max-width: 45px;
+}
+
+.item_7 h3 {
+    font-weight: normal;
+}
+
+.item_7 p {
+    font-size: 16px;
+}
+
+/*-- /Section 4 - About --*/
 
 /*-- Section 5 - About --*/
+
+.sect_5_about {
+    padding: 32px 0;
+}
+
+.sect_5_about .h2_wrapp {
+    padding: 2px 0;
+}
 
 .thumb_7 {
     width: 100%;
     margin: 2px 0;
 }
 
+.blue_box_2 > .inner {
+    padding: 6px 10px 12px 10px;
+}
+
+.item_8 > div:nth-child(1) {
+    width: 90px;
+}
+
+.item_8 > div:nth-child(2) {
+    width: calc(100% - 90px);
+}
+
+.item_8 > div:nth-child(2):before {
+    width: calc(100% - 50px);
+    height: 83px;
+    left: 50px;
+}
+
 /*-- /Section 5 - About --*/
 
 /*-- Section 3 - Author Page --*/
+
+.sect_3_about {
+    padding: 4px 0 22px 0;
+}
 
 .steps_2_wrapp {
     margin: 20px auto 6px auto;
@@ -4546,6 +4837,40 @@ h2 {
 
 }
 
+@media only screen and (max-width: 420px) {
+
+/*-- Section 3 - About --*/
+
+.step_item_2 {
+    height: auto !important;
+}
+
+.step_item_2 > div:nth-child(1) {
+    width: calc(100% - 50px);
+}
+
+.step_item_2 > div:nth-child(2) {
+    width: 50px;
+    text-align: right;
+}
+
+.step_item_2_shape_resp {
+    display: none;
+}
+
+.step_figure {
+    max-width: 100%;
+}
+
+.step_percent p {
+    text-align: right;
+    font-size: 26px;
+}
+
+/*-- /Section 3 - About --*/
+
+}
+
 @media only screen and (max-width: 400px) {
 
 /*-- Header --*/
@@ -4752,6 +5077,38 @@ h2 {
 }
 
 /*-- /Section 2 - Prices --*/
+
+/*-- Section 2 - About --*/
+
+.about_thumb > div:nth-child(1) {
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.about_thumb > div:nth-child(1) > img {
+    margin: 0 auto;
+}
+
+.about_thumb > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+}
+
+/*-- /Section 2 - About --*/
+
+/*-- Section 5 - About --*/
+
+.item_8 {
+    margin: 10px 0;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.item_8 > div:nth-child(2) {
+    width: 100%;
+}
+
+/*-- /Section 5 - About --*/
 
 /*-- Footer --*/
 

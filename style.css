@@ -2166,10 +2166,6 @@ div.svg div.rateit-preset {
     line-height: 120%;
 }
 
-.steps_scale {
-
-}
-
 .steps_2_wrapp {
     height: 763px;
     width: 1364px;
@@ -2328,6 +2324,10 @@ div.svg div.rateit-preset {
     max-width: 84px;
     max-height: 84px;
     margin: 0 auto;
+}
+
+.step_item_2_shape_resp {
+    display: none;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -3985,6 +3985,11 @@ div.svg div.rateit-preset {
     padding: 36px 0 37px 0;
 }
 
+.h1_wrapp_about h1 {
+    font-size: 48px;
+    line-height: 56px;
+}
+
 .h1_wrapp_about h3 {
     padding: 20px 0;
 }
@@ -4030,6 +4035,10 @@ div.svg div.rateit-preset {
 .about_thumb {
     width: calc(33.33% - 40px);
     margin: 20px;
+}
+
+.about_thumb > div:nth-child(1) {
+    display: none;
 }
 
 .about_thumb p {
@@ -4292,6 +4301,13 @@ div.svg div.rateit-preset {
 
 .item_7 > div:nth-child(2) {
     width: calc(100% - 100px);
+}
+
+.item_7 > div:nth-child(1) > img {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
 }
 
 .item_7 h3 {
