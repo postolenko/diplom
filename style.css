@@ -300,11 +300,19 @@ textarea:focus {
     display: none;
 }
 
+.visble_1124 {
+    display: none;
+}
+
 .visible_1024 {
     display: none !important;
 }
 
 .visible_480 {
+    display: none;
+}
+
+.visble_1024 {
     display: none;
 }
 
@@ -3423,6 +3431,8 @@ div.svg div.rateit-preset {
 .thumb_6_title {
     display: flex;
     display: -webkit-flex;
+    align-items: center;
+    -webkit-align-items: center;
 }
 
 .thumb_6_title > div:nth-child(1) {
@@ -4567,17 +4577,9 @@ div.svg div.rateit-preset {
     line-height: 49px;
 }
 
-.input_two_cols_2 .clock_wrapp {
-    /*width: 106px;*/
-}
-
 .pages_select {
     width: 195px !important;
     max-width: 195px !important;
-}
-
-.count_percents {
-
 }
 
 .inputs_inlines {
