@@ -316,6 +316,10 @@ textarea:focus {
     display: none;
 }
 
+.novisble_480 {
+    display: block;
+}
+
 /*-- Slick --*/
 
 .slick-arrow {

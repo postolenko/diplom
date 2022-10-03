@@ -971,44 +971,76 @@ h2 {
 /*-- Section 1 - Author Page --*/
 
 .sect_2_ap {
-    padding: 30px 0 40px 0;
+    padding: 48px 0 27px 0;
+}
+
+.h1_wrapp_2 {
+    text-align: center;
+}
+
+.sect_1_ap .h1_wrapp_2 h1 {
+    font-size: 48px;
+    line-height: 57px;
+}
+
+.promo_shape_2 {
+    bottom: -26px;
+    max-width: 400px;
+}
+
+.steps_wrapp {
+    left: -23px;
 }
 
 .step_item {
-    max-width: 192px;
-    padding: 10px 10px 10px 10px;
+    max-width: 230px;
+    padding: 15px 9px 15px 19px;
 }
 
 .step_item h3 {
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .step_item p {
-    font-size: 16px;
+    font-size: 13.5px;
 }
 
 .step_item p.price_range {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 .step_1 {
-    bottom: 26px;
-    left: 7%;
+    bottom: 36px;
+    left: 9%;
 }
 
 .step_2 {
-    bottom: 109px;
+    bottom: 117px;
     left: 35%;
 }
 
 .step_3 {
-    bottom: 185px;
+    bottom: 188px;
     left: 62%;
 }
 
 .step_4 {
     bottom: 297px;
     left: 81%;
+}
+
+.items_two_cols .item_5 {
+    margin: 13px 0;
+}
+
+.sect_1_ap .btn_wrapp_2 {
+    padding: 8px 0 2px 0;
+}
+
+.steps_lines {
+    width: 860px;
+    margin-left: -35px;
 }
 
 /*-- /Section 1 - Author Page --*/
@@ -1618,55 +1650,6 @@ h2 {
 
 /*-- /Section 5 - About --*/
 
-/*-- Section 1 - Author Page --*/
-
-.promo_shape_2 {
-    bottom: -26px;
-    max-width: 400px;
-}
-
-/*-- /Section 1 - Author Page --*/
-
-/*-- Section 2 - Author Page --*/
-
-.steps_wrapp {
-    height: 400px;
-    max-width: 690px;
-    margin: -10px auto 0 auto;
-}
-
-.steps_lines {
-    width: 670px;
-}
-
-.step_item {
-    max-width: 137px;
-}
-
-.step_item h3 {
-    font-size: 13px;
-}
-
-.step_item p.price_range {
-    font-size: 18px;
-}
-
-.step_2 {
-    bottom: 89px;
-    left: 34%;
-}
-
-.step_3 {
-    bottom: 142px;
-    left: 59%;
-}
-
-.step_4 {
-    bottom: 230px;
-}
-
-/*-- /Section 2 - Author Page --*/
-
 /*-- Section 3 - Author Page --*/
 
 .steps_scale_wrapp {
@@ -1677,6 +1660,10 @@ h2 {
     transform: scale(.7);
     -webkit-transform: scale(.7);
     top: -107px;
+}
+
+.steps_2_wrapp {
+    margin: 15px auto 6px auto;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -1916,6 +1903,56 @@ h2 {
 }
 
 /*-- /Section 2 - Prices --*/
+
+/*-- Section 2 - Author Page --*/
+
+.steps_wrapp {
+    height: 379px;
+    margin: -16px auto 0 auto;
+}
+
+.steps_lines {
+    width: 620px;
+}
+
+.step_item h3 {
+    font-size: 12px;
+}
+
+.step_item p.price_range {
+    font-size: 19px;
+}
+
+.step_item {
+    max-width: 197px;
+    padding: 8px 8px 7px 9px;
+}
+
+.step_item p {
+    font-size: 12px;
+}
+
+.step_1 {
+    bottom: 67px;
+    left: 19%;
+}
+
+.step_2 {
+    bottom: 121px;
+    left: 38%;
+}
+
+.step_3 {
+    bottom: 179px;
+    left: 57%;
+}
+
+.step_4 {
+    bottom: 254px;
+    left: 71%;
+}
+
+/*-- /Section 2 - Author Page --*/
 
 }
 
@@ -2290,12 +2327,36 @@ h2 {
 
 /*-- Section 1 - Author Page --*/
 
+.sect_1_ap {
+    padding-bottom: 106px;
+}
+
 .h1_wrapp_2 p {
     font-size: 20px;
     line-height: 30px;
 }
 
+.items_two_cols .item_5 {
+    margin: 2px 0;
+}
+
 /*-- /Section 1 - Author Page --*/
+
+/*-- Section 2 - Author Page --*/
+
+.step_1 {
+    left: 8%;
+}
+
+.step_2 {
+    left: 33%;
+}
+
+.step_4 {
+    left: 75%;
+}
+
+/*-- /Section 2 - Author Page --*/
 
 /*-- Section 3 - Author Page --*/
 
@@ -3087,15 +3148,25 @@ h1 {
 
 /*-- Section 1 - Author Page --*/
 
-.sect_1_ap {
-    background-image: none;
+.sect_1_ap .h1_wrapp_2 h1 {
+    font-size: 29px;
+    line-height: 38px;
+}
+
+.sect_1_ap .h1_wrapp_2 p {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.sect_1_ap .btn_wrapp_2 {
+    padding: 12px 0 2px 0;
 }
 
 /*-- /Section 1 - Author Page --*/
 
 /*-- Section 3 - Author Page --*/
 
-.sect_3_ap:before {
+/*.sect_3_ap:before {
     display: none;
 }
 
@@ -3165,19 +3236,15 @@ h1 {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     margin: 0 -10px;
-}
-
-/*-- /Section 3 - Author Page --*/
-
-/*-- Section 3 - Author Page --*/
-
-.sect_4_ap:before {
-    display: none;
-}
+}*/
 
 /*-- /Section 3 - Author Page --*/
 
 /*-- Section 4 - Author Page --*/
+
+.sect_4_ap:before {
+    display: none;
+}
 
 .item_4 {
     margin: 20px 0;
@@ -3609,21 +3676,37 @@ h1 {
 /*-- Section 2 - Author Page --*/
 
 .steps_wrapp {
-    height: 310px;
+    height: 258px;
 }
 
 .steps_lines {
-    width: 450px;
+    width: 410px;
+}
+
+.step_item h3 {
+    font-size: 9px;
+}
+
+.step_item p.price_range {
+    font-size: 13px;
+}
+
+.step_item {
+    max-width: 125px;
+}
+
+.step_item p {
+    font-size: 10px;
 }
 
 .step_1 {
-    bottom: 26px;
-    left: 1%;
+    bottom: 28px;
+    left: 17%;
 }
 
 .step_2 {
-    bottom: 65px;
-    left: 28%;
+    bottom: 71px;
+    left: 34%;
 }
 
 .step_3 {
@@ -3632,11 +3715,11 @@ h1 {
 }
 
 .step_4 {
-    bottom: 162px;
-    left: 79%;
+    bottom: 155px;
+    left: 68%;
 }
 
-/*-- .Section 2 - Author Page --*/
+/*-- /Section 2 - Author Page --*/
 
 /*-- Section 2 - Prices --*/
 
@@ -3708,6 +3791,20 @@ h1 {
 }
 
 /*-- /Section 5 - Service --*/
+
+/*-- Section 3 - Author Page --*/
+
+.steps_scale {
+    transform: scale(.6);
+    -webkit-transform: scale(.5);
+    top: -192px;
+}
+
+.steps_scale_wrapp {
+    height: 360px;
+}
+
+/*-- /Section 3 - Author Page --*/
 
 }
 
@@ -4152,7 +4249,7 @@ div.svg div.rateit-hover {
 .line_article_shape {
     display: block;
     width: 100%;
-    max-width: 353px;
+    max-width: 230px;
     margin: 22px auto 0 auto;
     position: relative;
     top: 0;
@@ -4175,138 +4272,110 @@ div.svg div.rateit-hover {
 
 /*-- Section 1 - Author Page --*/
 
+.sect_1_ap {
+    padding-bottom: 169px;
+}
+
 .promo_shape_2 {
-    display: none;
+    width: 300px;
+    bottom: -20px;
+    right: auto;
+    left: 50%;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+}
+
+.sect_1_app_resp {
+    max-width: 335px;
+    margin: 0 auto;
+}
+
+.items_two_cols .item_5 {
+    margin: 10px 0;
+}
+
+.item_5 p {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.item_5 > div:nth-child(1) {
+    width: 80px;
+}
+
+.item_5 > div:nth-child(2) {
+    width: calc(100% - 80px);
+    padding-left: 0;
+}
+
+.items_two_cols > div:nth-child(odd) .item_5:last-child {
+    margin-bottom: 0;
+}
+
+.items_two_cols > div:nth-child(even) .item_5:last-child {
+    margin-bottom: 0;
+}
+
+.sect_1_ap .btn_wrapp_2 {
+    text-align: center;
 }
 
 /*-- /Section 1 - Author Page --*/
 
 /*-- Section 2 - Author Page --*/
 
-.sect_2_ap:before {
-    display: none;
+.step_1 {
+    bottom: 28px;
+    left: 6%;
 }
 
-.steps_wrapp {
-    height: auto;
-}
-
-.steps_lines {
-    display: none;
-}
-
-.step_item {
-    margin: 10px 0;
-    max-width: 100%;
-    position: relative !important;
-    bottom: 0 !important;
-    left: 0 !important;
-}
-
-.step_item h3 {
-    font-size: 17px;
-}
-
-.step_item p.price_range {
-    font-size: 22px;
-}
-
-.step_item p {
-    font-size: 20px;
+.step_2 {
+    bottom: 71px;
+    left: 28%;
 }
 
 /*-- /Section 2 - Author Page --*/
 
 /*-- Section 3 - Author Page --*/
 
-.steps_templ {
-    max-width: 360px;
+.steps_bg {
+    top: -63px;
+    margin-left: 12px;
 }
 
-.step_item_2_shape {
+.steps_scale {
+    transform: scale(.4);
+    -webkit-transform: scale(.4);
+    top: -225px;
+}
+
+.steps_scale_wrapp {
+    height: 288px;
+}
+
+.step_2_item h3 {
+    font-size: 64px;
+}
+
+.step_2_item_3 h3 {
+    font-size: 64px;
+}
+
+.step_2_item_3 p {
+    font-size: 30px;
+}
+
+.steps_2_cirlce p {
     display: none;
 }
 
-.step_item_2_shape_resp {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
+.step_2_item p {
+    font-size: 30px;
 }
 
-.step_figure {
-    padding: 5px 18px 10px 0;
-}
-
-.step_figure_1 {
-    max-width: 280px;
-    min-height: 90px;
-}
-
-.step_figure_2 {
-    max-width: 276px;
-    min-height: 93px;
-}
-
-.step_figure_3 {
-    max-width: 285px;
-    min-height: 127px;
-}
-
-.step_figure_4 {
-    max-width: 279px;
-    min-height: 93px;
-}
-
-.step_figure_5 {
-    max-width: 267px;
-    min-height: 110px;
-}
-
-.step_figure h3 {
-    font-size: 16px;
-    line-height: 100%;
-}
-
-.step_figure p {
-    font-size: 12px;
-    line-height: 100%;
-}
-
-.step_item_2_1 {
-    height: 93px;
-}
-
-.step_item_2_2 {
-    height: 93px;
-}
-
-.step_item_2_3 {
-    height: 129px;
-}
-
-.step_item_2_4 {
-    height: 93px;
-}
-
-.step_item_2_5 {
-    height: 105px;
-}
-
-.step_percent {
-    width: 100%;
-    min-height: auto;
-}
-
-.step_percent p {
-    padding-top: 0;
-}
-
-.step_item_2 > div:nth-child(2) {
-    display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    -webkit-align-items: center;
+.steps_2_cirlce h3 {
+    padding: 44px 0;
+    font-size: 32px;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -4346,6 +4415,10 @@ div.svg div.rateit-hover {
     padding-top: 14px;
 }
 
+.steps_2_cirlce .circle_icon {
+    margin: 34px auto 8px auto;
+}
+
 .checked_thumb_desc {
     padding: 5px 5px 5px 5px;
 }
@@ -4354,6 +4427,11 @@ div.svg div.rateit-hover {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     padding: 5px 0;
+}
+
+.steps_2_cirlce h3 {
+    padding: 29px 0;
+    font-size: 34px;
 }
 
 /*-- /Section 1 - Order --*/
@@ -4585,6 +4663,10 @@ h2 {
     display: block;
 }
 
+.novisble_480 {
+    display: none;
+}
+
 /*-- Section 1 - Main Page --*/
 
 .item {
@@ -4789,18 +4871,62 @@ h2 {
 
 /*-- /Section 5 - About --*/
 
-/*-- Section 3 - Author Page --*/
+/*-- Section 2 - Author Page --*/
 
-.sect_3_about {
-    padding: 4px 0 22px 0;
+.sect_2_ap {
+    padding: 38px 0 10px 0;
 }
 
-.steps_2_wrapp {
-    margin: 20px auto 6px auto;
+.steps_wrapp {
+    margin: -2px auto 0 auto;
+    left: 22px;
+}
+
+/*-- /Section 2 - Author Page --*/
+
+/*-- Section 3 - Author Page --*/
+
+.steps_scale_wrapp {
+    height: 215px;
+}
+
+.steps_scale {
+    transform: scale(.29);
+    -webkit-transform: scale(.29);
+    top: -260px;
+}
+
+.step_2_item_3 {
+    max-width: 206px;
+    top: 487px;
+    left: 42%;
+}
+
+.steps_bg {
+    top: -63px;
+    margin-left: 3px;
+}
+
+.step_2_item_2 {
+    top: 403px;
+    left: 277px;
+}
+
+.step_2_item_4 {
+    top: 403px;
+    right: 288px;
+}
+
+.step_2_item_5 {
+    right: 11%;
+}
+
+.steps_2_cirlce h3 {
+    font-size: 37px;
 }
 
 .step_2_item p {
-    font-size: 14px;
+    font-size: 32px;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -4808,37 +4934,56 @@ h2 {
 /*-- Section 4 - Author Page --*/
 
 .sect_4_ap {
-    padding-top: 30px;
+    padding-top: 34px;
 }
 
-.item_4 {
-    display: block;
+.items_two_cols_2 {
+    margin: 0 auto;
 }
 
 .item_4 > div:nth-child(1) {
-    width: 100%;
-    margin-bottom: 10px;
+    width: 66px;
 }
 
 .item_4 > div:nth-child(2) {
-    width: 100%;
-    text-align: center;
+    width: calc(100% - 66px);
+    padding-left: 20px;
 }
 
-.item_4 > div:nth-child(1) img {
+.item_4 > div:nth-child(1) > img {
     display: block;
     width: auto;
     height: auto;
-    margin: 0 auto;
     max-width: 100%;
 }
 
+.item_4 h3 {
+    font-size: 16px;
+}
+
+.item_4 p {
+    padding: 1px 0;
+    font-size: 15px;
+}
+
 .form_wrapp_2 {
-    margin: 50px auto 50px auto;
+    margin: 48px auto 37px auto;
+    padding: 32px 17px 2px 17px;
 }
 
 .form_wrapp_2 h3 {
     font-size: 24px;
+    padding-bottom: 12px;
+}
+
+.form_wrapp_2 .submit_wrapp_2 {
+    padding: 19px 0 10px 0;
+}
+
+.form_wrapp_2 .submit_wrapp_2 p {
+    padding: 10px 0;
+    text-align: left;
+    font-size: 14px;
 }
 
 /*-- /Section 4 - Author Page --*/
@@ -5108,6 +5253,52 @@ h2 {
 
 /*-- /Section 2 - Prices --*/
 
+/*-- Section 2 - Author Page --*/
+
+.step_1 {
+    bottom: 19px;
+    left: -9%;
+}
+
+.step_2 {
+    bottom: 71px;
+    left: 17%;
+}
+
+.step_3 {
+    bottom: 103px;
+    left: 49%;
+}
+
+.step_4 {
+    bottom: 158px;
+    left: 68%;
+}
+
+/*-- /Section 2 - Author Page --*/
+
+/*-- Section 4 - Author Page --*/
+
+.item_4 > div:nth-child(1) {
+    width: 45px;
+}
+
+.item_4 > div:nth-child(2) {
+    width: calc(100% - 45px);
+    padding-left: 10px;
+}
+
+.item_4 h3 {
+    font-size: 14px;
+}
+
+.item_4 p {
+    padding: 1px 0;
+    font-size: 14px;
+}
+
+/*-- /Section 4 - Author Page --*/
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -5141,6 +5332,55 @@ h2 {
 }
 
 /*-- /Section 3 - About --*/
+
+/*-- Section 2 - Author Page --*/
+
+.steps_box {
+    margin-top: 10px;
+}
+
+.steps_wrapp {
+    height: 184px;
+}
+
+.steps_lines {
+    width: 310px;
+}
+
+.step_1 {
+    bottom: -6px;
+    left: -11%;
+}
+
+.step_2 {
+    bottom: 43px;
+    left: 20%;
+}
+
+.step_3 {
+    bottom: 97px;
+    left: 49%;
+}
+
+.step_4 {
+    bottom: 150px;
+    left: 36%;
+}
+
+.step_item {
+    max-width: 127px;
+    padding: 4px 8px 3px 9px;
+}
+
+.step_item h3 {
+    font-size: 8px;
+}
+
+.step_item p.price_range {
+    font-size: 11px;
+}
+
+/*-- /Section 2 - Author Page --*/
 
 }
 
