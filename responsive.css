@@ -4266,6 +4266,11 @@ div.svg div.rateit-hover {
 .thumb_7 {
     margin: 2px 0;
     width: 100%;
+    min-height: 100px;
+}
+
+.thumb_7 h3 {
+    font-size: 40px;
 }
 
 /*-- /Section 5 - About --*/
@@ -4856,11 +4861,24 @@ h2 {
 }
 
 .item_8 > div:nth-child(1) {
-    width: 90px;
+    width: 65px;
 }
 
 .item_8 > div:nth-child(2) {
-    width: calc(100% - 90px);
+    width: calc(100% - 65px);
+}
+
+.item_8 > div:nth-child(1) img {
+    max-width: 50px;
+    width: 100%;
+}
+
+.item_8 h3 {
+    font-size: 22px;
+}
+
+.item_8 p {
+    font-size: 18px;
 }
 
 .item_8 > div:nth-child(2):before {
@@ -5608,20 +5626,6 @@ h2 {
 }
 
 /*-- /Section 2 - About --*/
-
-/*-- Section 5 - About --*/
-
-.item_8 {
-    margin: 10px 0;
-    flex-wrap: wrap;
-    -webkit-flex-wrap: wrap;
-}
-
-.item_8 > div:nth-child(2) {
-    width: 100%;
-}
-
-/*-- /Section 5 - About --*/
 
 /*-- Section 6 - Service --*/
 
