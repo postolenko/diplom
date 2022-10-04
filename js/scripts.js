@@ -305,4 +305,20 @@ $(document).ready(function() {
       $(this).addClass("active");
     });
 
+    // -----------------
+
+    $("#searchInput").on("keyup", function(e) {
+      if($(this).val().length > 0) {
+        $("#resetSearch").addClass("visible");
+      } else {
+        $("#resetSearch").removeClass("visible");
+      }
+    });
+
+    $("#resetSearch").click(function(e) {
+      e.preventDefault();
+      $("#searchInput").val("");
+      $(this).removeClass("visible");
+    });
+
 });

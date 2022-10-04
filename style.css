@@ -3720,6 +3720,14 @@ div.svg div.rateit-preset {
     max-height: 100%;
 }
 
+#resetSearch {
+    display: none;
+}
+
+#resetSearch.visible {
+    display: block;
+}
+
 .price_table_wrapp {
     margin: 16px 0;
 }
