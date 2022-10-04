@@ -321,4 +321,47 @@ $(document).ready(function() {
       $(this).removeClass("visible");
     });
 
+    // -----------------
+
+    $(".step_2_item").on("mouseover", function(e) {
+      e.preventDefault();
+      idAttr = $(this).attr("data-id");
+      $("#"+idAttr).css({
+        "fill" : "#FD8C04"
+      });
+    });
+
+    $(".step_2_item").on("mouselive", function(e) {
+      e.preventDefault();
+      idAttr = $(this).attr("data-id");
+      $("#"+idAttr).css({
+        "fill" : "#fff"
+      });
+    });
+
+    $( ".step_2_item" ).bind({
+      mouseenter: function() {
+        idAttr = $(this).attr("data-id");
+        $("#"+idAttr).css({
+          "fill" : "#FD8C04"
+        });
+      },
+      mouseleave: function() {
+        idAttr = $(this).attr("data-id");
+        $("#"+idAttr).css({
+          "fill" : "#fff"
+        });
+      }
+    });
+
+    $( ".steps_bg path" ).bind({
+      mouseenter: function() {
+        idAttr = $(this).attr("id");
+        $("[data-id = '"+idAttr+"']").addClass("hover");
+      },
+      mouseleave: function() {
+        $("[data-id = '"+idAttr+"']").removeClass("hover");
+      }
+    });
+
 });

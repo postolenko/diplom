@@ -2190,6 +2190,9 @@ div.svg div.rateit-preset {
 .steps_inner {
     position: relative;
     z-index: 2;
+    width: 380px;
+    height: 380px;
+    margin: 0 auto;
 }
 
 .steps_2_cirlce {
@@ -2228,6 +2231,44 @@ div.svg div.rateit-preset {
     margin-left: 10px;
 }
 
+.steps_bg path {
+    -webkit-transition-property: fill;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: fill;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: fill;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: fill;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: fill;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+#figure_1.hover,
+#figure_2.hover,
+#figure_3.hover,
+#figure_4.hover,
+#figure_5.hover {
+    fill: #FD8C04;
+}
+
+#figure_1:hover,
+#figure_2:hover,
+#figure_3:hover,
+#figure_4:hover,
+#figure_5:hover {
+    fill: #FD8C04 !important; 
+}
+
 .steps_2_cirlce h3 {
     padding: 5px 0;
     font-weight: 500;
@@ -2258,6 +2299,25 @@ div.svg div.rateit-preset {
     font-size: 40px;
     line-height: 109.19%;
     color: #FE9700;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .step_2_item p {
@@ -2265,33 +2325,56 @@ div.svg div.rateit-preset {
     font-size: 24px;
     line-height: 109.19%;
     color: #1A2E44;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
-/*.step_2_item_1 {
-    position: absolute;
-    top: 185px;
-    left: 12%;
-}*/
+.step_2_item:hover h3,
+.step_2_item.hover h3 {
+    color: #fff;
+}
+
+.step_2_item:hover p,
+.step_2_item.hover p {
+    color: #fff;
+}
 
 .step_2_item_1 {
     position: absolute;
     top: 185px;
-    left: 146px;
+    left: -341px;
 }
 
 .step_2_item_2 {
     max-width: 230px;
+    width: 100%;
     position: absolute;
     top: 427px;
-    /*left: 21%;*/
-    left: 285px;
+    left: -217px;
 }
 
 .step_2_item_3 {
     max-width: 190px;
     position: absolute;
     top: 507px;
-    left: 44%;
+    left: 28%;
 }
 
 .step_2_item_3 h3 {
@@ -2304,17 +2387,16 @@ div.svg div.rateit-preset {
 
 .step_2_item_4 {
     max-width: 230px;
+    width: 100%;
     position: absolute;
     top: 427px;
-    /*right: 21%;*/
-    /*right: 118px;*/
-    right: 280px;
+    right: -222px;
 }
 
 .step_2_item_5 {
     position: absolute;
     top: 185px;
-    right: 10%;
+    right: -360px;
 }
 
 .right_icons {

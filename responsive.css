@@ -4842,10 +4842,14 @@ h2 {
     top: -260px;
 }
 
+.step_2_item_1 {
+    left: -354px;
+}
+
 .step_2_item_3 {
     max-width: 206px;
     top: 487px;
-    left: 42%;
+    left: 22%;
 }
 
 .steps_bg {
@@ -4855,16 +4859,16 @@ h2 {
 
 .step_2_item_2 {
     top: 403px;
-    left: 277px;
+    left: -209px;
 }
 
 .step_2_item_4 {
     top: 403px;
-    right: 288px;
+    right: -213px;
 }
 
 .step_2_item_5 {
-    right: 11%;
+    right: -88%;
 }
 
 .steps_2_cirlce h3 {
