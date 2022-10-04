@@ -3732,6 +3732,28 @@ h1 {
     height: 360px;
 }
 
+.steps_2_cirlce {
+    left: 0;
+}
+
+.step_2_item_1 {
+    left: -343px;
+}
+
+.step_2_item_2 {
+    top: 409px;
+    left: -210px;
+}
+
+.step_2_item_3 {
+    top: 491px;
+    left: 25.5%;
+}
+
+.step_2_item_4 {
+    top: 409px;
+}
+
 /*-- /Section 3 - Author Page --*/
 
 }
@@ -4273,7 +4295,6 @@ div.svg div.rateit-hover {
 
 .steps_bg {
     top: -63px;
-    margin-left: 12px;
 }
 
 .steps_scale {
@@ -4309,6 +4330,30 @@ div.svg div.rateit-hover {
 .steps_2_cirlce h3 {
     padding: 44px 0;
     font-size: 32px;
+}
+
+.steps_2_cirlce {
+    left: -7px;
+}
+
+.step_2_item_1 {
+    left: -352px;
+}
+
+.step_2_item_2 {
+    left: -222px;
+}
+
+.step_2_item_3 {
+    left: 23%;
+}
+
+.step_2_item_4 {
+    right: -208px;
+}
+
+.step_2_item_5 {
+    right: -341px;
 }
 
 /*-- /Section 3 - Author Page --*/

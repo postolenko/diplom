@@ -2205,6 +2205,8 @@ div.svg div.rateit-preset {
     border-radius: 50%;
     -webkit-border-radius: 50%;
     text-align: center;
+    position: relative;
+    left: -10px;
 }
 
 .steps_2_cirlce .circle_icon {
@@ -2212,6 +2214,8 @@ div.svg div.rateit-preset {
     max-width: 100%;
     width: auto;
     margin: 10px auto 15px auto;
+    position: relative;
+    left: -5px;
 }   
 
 .steps_2_wrapp .circle_shape {
@@ -2228,7 +2232,6 @@ div.svg div.rateit-preset {
     left: 50%;
     transform: translate(-50%, 0);
     -webkit-transform: translate(-50%, 0);
-    margin-left: 10px;
 }
 
 .steps_bg path {
@@ -2359,7 +2362,7 @@ div.svg div.rateit-preset {
 .step_2_item_1 {
     position: absolute;
     top: 185px;
-    left: -341px;
+    left: -352px;
 }
 
 .step_2_item_2 {
@@ -2367,14 +2370,14 @@ div.svg div.rateit-preset {
     width: 100%;
     position: absolute;
     top: 427px;
-    left: -217px;
+    left: -224px;
 }
 
 .step_2_item_3 {
     max-width: 190px;
     position: absolute;
     top: 507px;
-    left: 28%;
+    left: 25%;
 }
 
 .step_2_item_3 h3 {
@@ -2390,13 +2393,13 @@ div.svg div.rateit-preset {
     width: 100%;
     position: absolute;
     top: 427px;
-    right: -222px;
+    right: -216px;
 }
 
 .step_2_item_5 {
     position: absolute;
     top: 185px;
-    right: -360px;
+    right: -354px;
 }
 
 .right_icons {
