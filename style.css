@@ -1360,6 +1360,25 @@ div.svg div.rateit-preset {
     background-color: #fbfbfb;
     border-radius: 50%;
     -webkit-border-radius: 50%;
+    -webkit-transition-property: background;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: background;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: background;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: background;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: background;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
 .item_3 .item_3_num > p {
@@ -1368,13 +1387,32 @@ div.svg div.rateit-preset {
     font-size: 41px;
     line-height: 50px;
     color: #69AEFF;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
-.item_3.light h3 {
-    color: #367FD3;
+.item_3:hover .item_3_num > p {
+    color: #fff;
 }
 
-.item_3.blue .item_3_num {
+.item_3:hover .item_3_num {
     background: #367FD3;
 }
 
@@ -1397,6 +1435,29 @@ div.svg div.rateit-preset {
     line-height: 28px;
     text-transform: uppercase;
     color: #154672;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.item_3:hover h3 {
+    color: #367FD3;
 }
 
 .item_3 p {
