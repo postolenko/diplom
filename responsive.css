@@ -5245,6 +5245,35 @@ h2 {
 
 /*-- /Section 4 - Author Page --*/
 
+/*-- Section 1 - Service --*/
+
+.thumbnails_4 {
+    margin: 0 -10px;
+}
+
+.thumb_4 {
+    padding: 15px 10px;
+}
+
+.thumb_4 > div:nth-child(1) {
+    width: 55px;
+}
+
+.thumb_4 > div:nth-child(2) {
+    width: calc(100% - 55px);
+}
+
+.thumb_4 > div:nth-child(1) img {
+    max-width: 45px;
+}
+
+.thumb_4 p {
+    font-size: 17px;
+    line-height: 21px;
+}
+
+/*-- /Section 1 - Service --*/
+
 }
 
 @media only screen and (max-width: 420px) {
@@ -5554,6 +5583,27 @@ h2 {
 }
 
 /*-- /Section 2 - About --*/
+
+/*-- Section 1 - Service --*/
+
+.thumb_4 > div:nth-child(1) {
+    width: 45px;
+}
+
+.thumb_4 > div:nth-child(2) {
+    width: calc(100% - 45px);
+}
+
+.thumb_4 > div:nth-child(1) img {
+    max-width: 37px;
+}
+
+.thumb_4 p {
+    font-size: 15px;
+    line-height: 19px;
+}
+
+/*-- /Section 1 - Service --*/
 
 /*-- Section 6 - Service --*/
 
