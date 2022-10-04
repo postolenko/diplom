@@ -749,6 +749,10 @@ h2 {
     padding: 1px 0 26px 0;
 }
 
+.sect_1_faq .h1_wrapp_2 {
+    text-align: left;
+}
+
 .h1_wrapp_2 h1 {
     font-size: 40px;
     line-height: 50px;
