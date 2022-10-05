@@ -5409,34 +5409,56 @@ h2 {
 
 .steps_wrapp {
     height: 184px;
+    margin: 23px auto 20px auto;
 }
 
 .steps_lines {
-    width: 310px;
+    /*width: 310px;*/
+    /*width: 244px;*/
+    width: 265px;
+    margin-left: -63px;
+}
+
+.step_item {
+    max-width: 110px;
 }
 
 .step_1 {
-    bottom: -6px;
+/*    bottom: -6px;
+    left: -11%;*/
+    /*bottom: 12px;*/
+    bottom: 5px;
     left: -11%;
 }
 
 .step_2 {
-    bottom: 43px;
+/*    bottom: 43px;
+    left: 20%;*/
+    /*bottom: 59px;*/
+    bottom: 50px;
     left: 20%;
 }
 
 .step_3 {
+/*    bottom: 97px;
+    left: 49%;*/
+    /*bottom: 106px;*/
     bottom: 97px;
-    left: 49%;
+    left: 51%;
 }
 
 .step_4 {
-    bottom: 150px;
-    left: 36%;
+/*    bottom: 150px;
+    left: 36%;*/
+/*    bottom: 171px;
+    left: 61%;*/
+    bottom: 168px;
+    left: 60%;
 }
 
 .step_item {
-    max-width: 127px;
+    /*max-width: 127px;*/
+    max-width: 123px;
     padding: 4px 8px 3px 9px;
 }
 
@@ -5444,8 +5466,12 @@ h2 {
     font-size: 8px;
 }
 
-.step_item p.price_range {
+/*.step_item p.price_range {
     font-size: 11px;
+}*/
+
+.step_item p.price_range {
+    font-size: 9px;
 }
 
 /*-- /Section 2 - Author Page --*/
