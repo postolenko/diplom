@@ -2317,20 +2317,44 @@ div.svg div.rateit-preset {
     transition-timing-function: ease;
 }
 
-#figure_1.hover,
-#figure_2.hover,
-#figure_3.hover,
-#figure_4.hover,
-#figure_5.hover {
+.figure {
+    cursor: pointer;
+}
+
+.figure.active {
     fill: #FD8C04;
 }
 
-#figure_1:hover,
-#figure_2:hover,
-#figure_3:hover,
-#figure_4:hover,
-#figure_5:hover {
-    fill: #FD8C04 !important; 
+.steps_2_cirlce > div {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: -99999999px;
+    -webkit-transition-property: opacity;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: opacity;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: opacity;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: opacity;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: opacity;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.steps_2_cirlce > div.active {
+    opacity: 1;
+    position: relative;
+    left: 0;
 }
 
 .steps_2_cirlce h3 {
@@ -2355,6 +2379,7 @@ div.svg div.rateit-preset {
 .step_2_item {
     max-width: 212px;
     text-align: center;
+    cursor: pointer;
 }
 
 .step_2_item h3 {
@@ -2410,13 +2435,11 @@ div.svg div.rateit-preset {
     transition-timing-function: ease;
 }
 
-.step_2_item:hover h3,
-.step_2_item.hover h3 {
+.step_2_item.active h3 {
     color: #fff;
 }
 
-.step_2_item:hover p,
-.step_2_item.hover p {
+.step_2_item.active p {
     color: #fff;
 }
 

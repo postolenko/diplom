@@ -1958,6 +1958,33 @@ h2 {
 
 /*-- /Section 2 - Author Page --*/
 
+/*-- Section 3 - Author Page --*/
+
+.steps_2_cirlce {
+    width: 420px;
+    height: 420px;
+    left: -27px;
+    top: -57px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    -moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.3);
+}
+
+.circle {
+    display: none;
+}
+
+.steps_2_cirlce h3 {
+    font-size: 24px;
+}
+
+.steps_2_cirlce p {
+    font-size: 22px;
+}
+
+/*-- /Section 3 - Author Page --*/
+
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2387,12 +2414,11 @@ h2 {
 }
 
 .steps_2_cirlce h3 {
-    padding: 3px 0;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 .steps_2_cirlce p {
-    font-size: 18px;
+    font-size: 23px;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -3732,9 +3758,9 @@ h1 {
     height: 360px;
 }
 
-.steps_2_cirlce {
-    left: 0;
-}
+/*.steps_2_cirlce {
+    left: -7px;
+}*/
 
 .step_2_item_1 {
     left: -343px;
@@ -4319,22 +4345,22 @@ div.svg div.rateit-hover {
     font-size: 30px;
 }
 
-.steps_2_cirlce p {
+/*.steps_2_cirlce p {
     display: none;
-}
+}*/
 
 .step_2_item p {
     font-size: 30px;
 }
 
-.steps_2_cirlce h3 {
+/*.steps_2_cirlce h3 {
     padding: 44px 0;
     font-size: 32px;
-}
+}*/
 
-.steps_2_cirlce {
+/*.steps_2_cirlce {
     left: -7px;
-}
+}*/
 
 .step_2_item_1 {
     left: -352px;
@@ -4354,6 +4380,18 @@ div.svg div.rateit-hover {
 
 .step_2_item_5 {
     right: -341px;
+}
+
+.steps_2_cirlce .circle_icon {
+    margin: 7px auto 8px auto;
+}
+
+.steps_2_cirlce h3 {
+    font-size: 30px;
+}
+
+.steps_2_cirlce p {
+    font-size: 25px;
 }
 
 /*-- /Section 3 - Author Page --*/
@@ -4393,9 +4431,9 @@ div.svg div.rateit-hover {
     padding-top: 14px;
 }
 
-.steps_2_cirlce .circle_icon {
+/*.steps_2_cirlce .circle_icon {
     margin: 34px auto 8px auto;
-}
+}*/
 
 .checked_thumb_desc {
     padding: 5px 5px 5px 5px;
@@ -4405,11 +4443,6 @@ div.svg div.rateit-hover {
     flex-wrap: wrap;
     -webkit-flex-wrap: wrap;
     padding: 5px 0;
-}
-
-.steps_2_cirlce h3 {
-    padding: 29px 0;
-    font-size: 34px;
 }
 
 /*-- /Section 1 - Order --*/
@@ -4917,11 +4950,22 @@ h2 {
 }
 
 .steps_2_cirlce h3 {
-    font-size: 37px;
+    font-size: 36px;
+}
+
+.steps_2_cirlce p {
+    font-size: 31px;
 }
 
 .step_2_item p {
     font-size: 32px;
+}
+
+.steps_2_cirlce {
+    width: 500px;
+    height: 500px;
+    left: -65px;
+    top: -75px;
 }
 
 /*-- /Section 3 - Author Page --*/
