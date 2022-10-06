@@ -125,7 +125,7 @@
 	<!-- Section 2 - Prices -->
 	<section>
 		<div class="row">
-			<div class="prices_wrapp">
+			<div class="prices_wrapp search_form_sect">
 				<form>
 					<div class="search_form">
 						<div>
@@ -134,7 +134,7 @@
 						<div>
 							<div class="search_input_flex">
 								<div class="input_wrapp">
-									<input type="text" name="price_search" placeholder="Поиск по виду  работы ..." id="searchInput" />
+									<input type="text" onkeyup="filterFunction()" name="price_search" placeholder="Поиск по виду  работы ..." id="searchInput" />
 								</div>
 								<div class="search_btns_wrapp">
 									<div>
@@ -146,151 +146,152 @@
 										</button>
 									</div>
 									<div>
-										<button type="submit" class="search_pill">
+										<div class="search_pill noevent">
 											<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
 												<g opacity="0.5">
 													<path d="M14.6667 25.3333C20.5577 25.3333 25.3333 20.5577 25.3333 14.6667C25.3333 8.77563 20.5577 4 14.6667 4C8.77563 4 4 8.77563 4 14.6667C4 20.5577 8.77563 25.3333 14.6667 25.3333Z" stroke="#123351" stroke-linecap="round" stroke-linejoin="round"/>
 													<path d="M28 27.9992L22.2 22.1992" stroke="#123351" stroke-linecap="round" stroke-linejoin="round"/>
 												</g>
 											</svg>
-										</button>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="price_table_scroll scroll_x">
+					<div class="price_table_scroll">
 						<div class="price_table_wrapp">
-							<div class="price_table">
-								<div class="price_table_row table_header">
-									<div>
-										<h3>Навание</h3>
-									</div>
-									<div>
-										<h3>Срок</h3>
-									</div>
-									<div>
-										<h3>Цена</h3>
-									</div>
+							<div class="price_table" id="myDropdown">
+								<div class="dropdown_search">
+									<div class="price_table_row table_header">
+										<div>
+											<h3>Навание</h3>
+										</div>
+										<div>
+											<h3>Срок</h3>
+										</div>
+										<div>
+											<h3>Цена</h3>
+										</div>
+									</div>								
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Курсовая работа</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+											<div>
+												<p class="old_price">от 120 руб</p>
+												<p class="price">от 100 руб</p>
+											</div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Контрольная работа</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+											<div>
+												<p class="old_price">от 120 руб</p>
+												<p class="price">от 100 руб</p>
+											</div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Реферат</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+											<div>
+												<p class="old_price">от 120 руб</p>
+												<p class="price">от 100 руб</p>
+											</div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Решение задач</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Школьный проект</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Магистерская диссертация</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
+									<a href="#" class="price_table_row">
+										<div>
+											<p>Практическая работа</p>
+										</div>
+										<div>
+											<p>от 1 дня</p>
+										</div>
+										<div>
+										</div>
+										<div>
+											<div>
+												<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
+											</div>
+										</div>
+									</a>
 								</div>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-										<div>
-											<p class="old_price">от 120 руб</p>
-											<p class="price">от 100 руб</p>
-										</div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-										<div>
-											<p class="old_price">от 120 руб</p>
-											<p class="price">от 100 руб</p>
-										</div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-										<div>
-											<p class="old_price">от 120 руб</p>
-											<p class="price">от 100 руб</p>
-										</div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-								<a href="#" class="price_table_row">
-									<div>
-										<p>Контрольная работа</p>
-									</div>
-									<div>
-										<p>от 1 дня</p>
-									</div>
-									<div>
-									</div>
-									<div>
-										<div>
-											<div class="orange_pill gradient_pill"><span>Подробнее</span></div>
-										</div>
-									</div>
-								</a>
-
 							</div>
 						</div>
 					</div>

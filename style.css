@@ -3881,6 +3881,10 @@ div.svg div.rateit-preset {
     cursor: pointer;
 }
 
+.noevent {
+    cursor: default;
+}
+
 .search_pill svg {
     display: block;
     width: auto;

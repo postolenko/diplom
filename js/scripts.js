@@ -1,3 +1,19 @@
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("searchInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -7,11 +23,6 @@ bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).load(function() {
 
-  // if($(".scroll_x").length > 0) {
-  //   $(".scroll_x").mCustomScrollbar({
-  //     axis:"x"
-  //   });
-  // }
 
 });
 
@@ -28,6 +39,28 @@ $(document).scroll(function() {
 });
 
 $(document).ready(function() {
+
+$("#searchInput").on('propertychange input', function (e) {
+  parent = $(this).closest(".search_form_sect");
+  parent.addClass("active");
+});
+
+
+$(this).keydown(function(eventObject){
+  if (eventObject.which == 27) {
+    $(".search_form_sect").removeClass("active");
+  }
+});
+
+$(document).mouseup(function(e) {
+  hide_element = $("#myDropdown");
+  if (!hide_element.is(e.target)
+      && hide_element.has(e.target).length === 0) {
+      $(".search_form_sect").removeClass("active");
+    }
+});
+
+  // -----------
 
     if( $(".slider").length > 0 ) {
         $(".slider").not(".slick-initialized").slick({
@@ -313,56 +346,17 @@ $(document).ready(function() {
       } else {
         $("#resetSearch").removeClass("visible");
       }
+      filterFunction();
     });
 
     $("#resetSearch").click(function(e) {
       e.preventDefault();
       $("#searchInput").val("");
       $(this).removeClass("visible");
+      filterFunction();
     });
 
     // -----------------
-
-    // $(".step_2_item").on("mouseover", function(e) {
-    //   e.preventDefault();
-    //   idAttr = $(this).attr("data-id");
-    //   $("#"+idAttr).css({
-    //     "fill" : "#FD8C04"
-    //   });
-    // });
-
-    // $(".step_2_item").on("mouselive", function(e) {
-    //   e.preventDefault();
-    //   idAttr = $(this).attr("data-id");
-    //   $("#"+idAttr).css({
-    //     "fill" : "#fff"
-    //   });
-    // });
-
-    // $( ".step_2_item" ).bind({
-    //   mouseenter: function() {
-    //     idAttr = $(this).attr("data-id");
-    //     $("#"+idAttr).css({
-    //       "fill" : "#FD8C04"
-    //     });
-    //   },
-    //   mouseleave: function() {
-    //     idAttr = $(this).attr("data-id");
-    //     $("#"+idAttr).css({
-    //       "fill" : "#fff"
-    //     });
-    //   }
-    // });
-
-    // $( ".steps_bg path" ).bind({
-    //   mouseenter: function() {
-    //     idAttr = $(this).attr("id");
-    //     $("[data-id = '"+idAttr+"']").addClass("hover");
-    //   },
-    //   mouseleave: function() {
-    //     $("[data-id = '"+idAttr+"']").removeClass("hover");
-    //   }
-    // });
 
     $(".step_2_item").each(function() {
       if($(this).hasClass("active")) {
